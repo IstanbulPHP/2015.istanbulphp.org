@@ -1,1 +1,746 @@
-Coming soon
+<!DOCTYPE HTML>
+<html ng-app="PHPKonfApp">
+<head>
+    <meta charset=utf-8>
+    <meta name=description content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>{{ 'TITLE' | translate }}</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <meta name="description" content="PHPKonf: 25/26 Temmuz 2015'de Bahçeşehir Üniversitesi'nde düzenlenecek PHP Konferansı hakkında bilgilere ulaşabileceğiniz web sitesi.">
+    <meta name="keywords" content="PHP Konferansı, PHP, PHPKonf">
+    <meta name="author" content="IstanbulPHP"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="PHPKonf 2015 - Istanbul PHP Conference" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://phpkonf.org/" />
+    <meta property="og:image" content="" />
+    <meta property="og:image" content="http://phpkonf.org/img/covers/phpkonf2014.jpg" />
+    <link rel=stylesheet href="css/main.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body ng-controller="MainController">
+
+    <!-- <header id="sticky-header" class="header"> -->
+    <header id="sticky-header" class="header">
+        <div class="container">
+            <a class="logo logo--sticky header__logo" href="#">PHPKonf</a>
+            <a class="button button--primary header__language" ng-click="changeLanguage('tr')">TR</a>
+            <a class="button button--primary header__language" ng-click="changeLanguage('en')">EN</a>
+            <a class="button button--primary header__btn" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+            <nav id="sticky-header-menu" class="menu header__menu">
+                <a class="menu__item" data-target-id="main" href="#">{{ 'HOME' | translate }}</a>
+                <a class="menu__item" data-target-id="about" href="#">{{ 'ABOUT' | translate }}</a>
+                <a class="menu__item" data-target-id="speakers" href="#">{{ 'SPEAKERS' | translate }}</a>
+                <a class="menu__item" data-target-id="program" href="#">{{ 'PROGRAM' | translate }}</a>
+            </nav>
+        </div>
+    </header>
+    <div id="main" class="jumbotron jumbotron--main">
+        <div class="container jumbotron__container">
+            <section class="jumbotron__inner">
+                <a class="logo logo--header" href="#">PHPKonf</a>
+                <h1 class="jumbotron__title jumbotron--main__title">{{ 'LOCATION_DATE' | translate }}</h1>
+                <span class="inline-block" translate="{{ 'MAIN_DESCRIPTION' }}"></span><br>
+                <span class="inline-block" style="margin-top: 10px;">{{ 'SHARE_TO_WORLD' | translate }} <a href="https://twitter.com/intent/tweet?button_hashtag=phpkonf&text=PHPKonf%3A%20Istanbul%20PHP%20conference%202015%20hosted%20by%20Istanbul%20PHP%20community!%20%23php" class="twitter-hashtag-button" data-related="EmirKarsiyakali,IstanbulPHP,yuxel" data-url="http://phpkonf.org/">Tweet #phpkonf</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span><br>
+                <a class="button button--primary jumbotron--main__btn" href="https://docs.google.com/forms/d/1aUBfZItIEHEcmI-d_Es1KwYJQdL4u0WFfiopr4R8E3M/viewform" target="_blank">{{ 'CALL_FOR_PAPERS' | translate }}</a>
+            	<a class="button button--primary jumbotron--main__btn" href="http://optin.sndlp.com/R6U/078/3446915b" target="_blank">{{ 'MAIL_LIST' | translate }}</a>
+            </section>
+        </div>
+    </div>
+    <div id="about" class="pad-vertical-large bg-snow">
+        <div class="container">
+            <div class="row">
+                <section class="col-md-6 gap-bottom-tablet-v">
+                    <h3 class="gap-bottom-medium clear-gap-top">{{ 'ABOUT_PHPKONF_TITLE' | translate }}</h3>
+                    <p class="gap-bottom-medium" translate="{{ 'ABOUT_PHPKONF_DESC' }}"></p>
+                    <a class="button button--primary" target="_blank" href="https://twitter.com/IstanbulPHP">{{ 'ISTANBULPHP_ON_TWITTER' | translate }}</a><br/><br/>
+                    <a class="button button--primary" target="_blank" href="http://www.meetup.com/IstanbulPHP">{{ 'ISTANBULPHP_ON_MEETUP' | translate }}</a>
+                </section>
+                <div class="col-md-6">
+                    <div class="row gap-bottom">
+                        <div class="col-sm-4 gap-bottom-mobile-h">
+                            <figure class="thumb thumb--primary">
+                                <img src="img/2014/6.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                        <div class="col-sm-8">
+                            <figure class="thumb thumb--primary">
+                                <img src="img/2014/2.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 gap-bottom-mobile-h">
+                            <figure class="thumb thumb--primary">
+                                <img src="img/2014/3.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <figure class="thumb thumb--primary">
+                                <img src="img/2014/1.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="speakers" class="container text-center pad-vertical-large">
+        <h3 class="clear-gap-top">{{ 'SPEAKERS' | translate }}</h3>
+        <hr class="hyphen">
+        <p translate="{{ 'SPEAKERS_DESC' }}"></p> 
+        <div class="honeycomb-wrapper">
+            <div class="honeycomb-layout">
+                <div class="honeycomb-line">
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/cal-evans.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("cal")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Cal Evans</h4>
+                                    <span class="honeycomb__subtitle">Zend</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/jordi-boggiano.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("jordi")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Jordi Boggiano</h4>
+                                    <span class="honeycomb__subtitle">Nelmio</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/davey-shafik.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("davey")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Davey Shafik</h4>
+                                    <span class="honeycomb__subtitle">Engine Yard</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/pierre-joye.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("pierre")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Pierre Joye</h4>
+                                    <span class="honeycomb__subtitle">Microsoft</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="honeycomb-line">
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/frank-de-jonge.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("frank")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Frank de Jonge</h4>
+                                    <span class="honeycomb__subtitle">The PHP League</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/mikhail-vink.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("mikhail")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Mikhail Vink</h4>
+                                    <span class="honeycomb__subtitle">JetBrains</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/devrim-gunduz.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("devrim")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Devrim Gündüz</h4>
+                                    <span class="honeycomb__subtitle">EnterpriseDB</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/mert-hurturk.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("mert")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Mert<br/>Hürtürk</h4>
+                                    <span class="honeycomb__subtitle">Sendloop</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="honeycomb-line">
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/emir-karsiyakali.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("emir")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Emir Karşıyakalı</h4>
+                                    <span class="honeycomb__subtitle">Sendloop</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/hakki-ocal.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("hakki")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Hakkı Öcal</h4>
+                                    <span class="honeycomb__subtitle">Bahçeşehir University</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/muhittin-ozer.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("muhittin")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Muhittin<br/>Özer</h4>
+                                    <span class="honeycomb__subtitle">Atölye15</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/levent-ogut.png" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("levent")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Levent Öğüt</h4>
+                                    <span class="honeycomb__subtitle">Sendloop</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <!-- <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/blank.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a target="_blank" href="https://docs.google.com/forms/d/1aUBfZItIEHEcmI-d_Es1KwYJQdL4u0WFfiopr4R8E3M/viewform" class="honeycomb__link">
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">CFP</h4>
+                                    <span class="honeycomb__subtitle"> Interested in speaking? Submit your proposal now!</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure> -->
+                </div>
+                <div class="honeycomb-line">
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/akin-moroglu.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("akin")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Akın Moroğlu</h4>
+                                    <span class="honeycomb__subtitle">Bahçeşehir University</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/hidayet-dogan.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("hidayet")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Hidayet Doğan</h4>
+                                    <span class="honeycomb__subtitle">Bilkent University</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/blank.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a target="_blank" href="https://docs.google.com/forms/d/1aUBfZItIEHEcmI-d_Es1KwYJQdL4u0WFfiopr4R8E3M/viewform" class="honeycomb__link">
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">CFP</h4>
+                                    <span class="honeycomb__subtitle">{{ 'INTERESTED_IN_SPEAKING' | translate }}</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/blank.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a target="_blank" href="https://docs.google.com/forms/d/1aUBfZItIEHEcmI-d_Es1KwYJQdL4u0WFfiopr4R8E3M/viewform" class="honeycomb__link">
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">CFP</h4>
+                                    <span class="honeycomb__subtitle">{{ 'INTERESTED_IN_SPEAKING' | translate }}</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="speakers" class="container text-center pad-vertical-bottom-large">
+        <h3 class="clear-gap-top">{{ 'HONORED_GUESTS' | translate }}</h3>
+        <hr class="hyphen">
+        <p translate="{{ 'HONORED_GUESTS_DESC' }}"></p>
+        <div class="honeycomb-wrapper">
+            <div class="honeycomb-layout">
+                <div class="honeycomb-line">
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" src="img/speakers/blank.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a target="_blank" href="" class="honeycomb__link">
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title"></h4>
+                                    <span class="honeycomb__subtitle"></span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="program" class="pad-vertical-medium bg-snow">
+            <div class="container">
+                <section class="col-lg-5 gap-bottom-tablet-h">
+                    <h3 class="gap-bottom-medium">{{ 'DAY_1' | translate }}</h3>
+                    <p class="gap-bottom-medium">{{ 'DAY_1_DESC' | translate }}
+                    </p>
+                    <a class="button button--primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+                </section>
+                <div class="col-lg-7">
+                    <div class="program">
+                        <!-- Program Row -->
+                        <div class="program__row">
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>9:00</time>
+                                </div>
+                                <h4 class="program__item__title">Keynote: Going Pro*</h4>
+                                <small class="program__item__subtitle">Cal Evans</small>
+                                <p class="program__item__desc">What makes a developer a "professional developer"? Getting paid? Getting quoted? Publishing a book? Let's take a look at this. This talk will look at the traits that define a professional developer. Not the hard tech skills, those change with the tools being used. These are the soft and quasi-soft skills that developers have to master to be considered a professional developer. Along the way there will be some tweetable moments, and of course, a long line of bad jokes. Hopefully though, you will take away a concept that you need to work on to round out your skills and unlock your "Going Pro" badge.</p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>10:00</time>
+                                </div>
+                                <h4 class="program__item__title">Composer Best Practices*</h4>
+                                <small class="program__item__subtitle">Jordi Boggiano</small>
+                                <p class="program__item__desc">Composer has grown into the de-facto standard PHP dependency manager. While we struggle to make it easy to use, mastering dependency management and packaging in general remains tricky. In this session you will learn how to leverage Composer version constraints, grasp stabilities and semantic versioning along with a few more tips on being a good OSS citizen. You should already be comfortable with Composer basics and eager to learn about it some more.</p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>11:00</time>
+                                </div>
+                                <h4 class="program__item__title">Modern PHP</h4>
+                                <small class="program__item__subtitle">Emir Karşıyakalı</small>
+                                <p class="program__item__desc">PHP ekosisteminde son birkaç yılda olan değişiklikler, modern araçlar, ekosistem ve topluluktan bahsedilecek bu sunum, her seviyeden geliştiriciye hitap ediyor!</p>
+                            </div>
+                            <!-- /Program Item -->
+                        </div>
+                        <!-- /Program Row -->
+                        <!-- Program Row -->
+                        <div class="program__row">
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>14:00</time>
+                                </div>
+                                <h4 class="program__item__title">Growing your filesystem*</h4>
+                                <small class="program__item__subtitle">Frank de Jonge</small>
+                                <p class="program__item__desc">When your application is under heavy load, it'll need to scale. How we handle our filesystem is a necessary step in our scaling plan. Let's grow our filesystem understanding as our app goes from 10-100 users to thousands. We'll start small, scale out, and see which hurdles we need to tackle along the way.</p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>15:00</time>
+                                </div>
+                                <h4 class="program__item__title"></h4>
+                                <small class="program__item__subtitle">Hidayet Doğan</small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                        </div>
+                        <!-- /Program Row -->
+                        <!-- Program Row -->
+                        <div class="program__row">
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>16:00</time>
+                                </div>
+                                <h4 class="program__item__title">*</h4>
+                                <small class="program__item__subtitle">Pierre Joye</small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>17:00</time>
+                                </div>
+                                <h4 class="program__item__title"></h4>
+                                <small class="program__item__subtitle"></small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>18:00</time>
+                                </div>
+                                <h4 class="program__item__title">Teknik Sohbet</h4>
+                                <small class="program__item__subtitle"></small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                        </div>
+                        <!-- /Program Row -->
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="container">
+                <section class="col-lg-5 gap-bottom-tablet-h">
+                    <h3 class="gap-bottom-medium">{{ 'DAY_2' | translate }}</h3>
+                    <p class="gap-bottom-medium">{{ 'DAY_2_DESC' | translate }}
+                    </p>
+                    <a class="button button--primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+                </section>
+                <div class="col-lg-7">
+                    <div class="program">
+                        <!-- Program Row -->
+                        <div class="program__row">
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>9:00</time>
+                                </div>
+                                <h4 class="program__item__title"></h4>
+                                <small class="program__item__subtitle">Mert Hürtürk</small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>10:00</time>
+                                </div>
+                                <h4 class="program__item__title">What to Expect When You're Expecting: PHP 7*</h4>
+                                <small class="program__item__subtitle">Davey Shafik</small>
+                                <p class="program__item__desc">PHP 7 is coming, and with it will come new features, backwards compatibility breaks, and huge performance gains. This talk will get you prepared for all the changes in this upcoming release and offer practical advice you can implement now to ensure you code still works come upgrade time.
+                                </p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>11:00</time>
+                                </div>
+                                <h4 class="program__item__title">*</h4>
+                                <small class="program__item__subtitle">Mikhail Vink</small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                        </div>
+                        <!-- /Program Row -->
+                        <!-- Program Row -->
+                        <div class="program__row">
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>12:00</time>
+                                </div>
+                                <h4 class="program__item__title">*</h4>
+                                <small class="program__item__subtitle">Levent Öğüt</small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>14:00</time>
+                                </div>
+                                <h4 class="program__item__title"></h4>
+                                <small class="program__item__subtitle">Muhittin Özer</small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>15:00</time>
+                                </div>
+                                <h4 class="program__item__title">MySQL kullanıcıları için PostgreSQL'in avantajları</h4>
+                                <small class="program__item__subtitle">Devrim Gündüz</small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                        </div>
+                        <!-- /Program Row -->
+                        <!-- Program Row -->
+                        <div class="program__row">
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>17:00</time>
+                                </div>
+                                <h4 class="program__item__title"></h4>
+                                <small class="program__item__subtitle"></small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                            <!-- Program Item -->
+                            <div class="program__item">
+                                <div class="program__item__time">
+                                    <time>18.00</time>
+                                </div>
+                                <h4 class="program__item__title">Kadın Yazılımcı</h4>
+                                <small class="program__item__subtitle"></small>
+                                <p class="program__item__desc"></p>
+                            </div>
+                            <!-- /Program Item -->
+                        </div>
+                        <!-- /Program Row -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section class="container text-center pad-vertical-large">
+        <h3>{{ 'TICKETS' | translate }}</h3>
+        <hr class="hyphen">
+        <p>{{ 'TICKETS_DESC' | translate }}</p>
+        <div class="row pad-top">
+            <div class="col-md-6 gap-bottom-tablet-v">
+                <!-- Register Box -->
+                <div class="register-box" style="min-height: 276px!important;">
+                    <div class="register-box__col register-box__col--left">
+                        <div class="register-box__price">
+                            <sup>$</sup>15
+                        </div>
+                        <a class="button button--primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+                    </div>
+                    <div class="register-box__col register-box__col--right">
+                        <div class="register-box__title">Standard</div>
+                        <hr class="hyphen">
+                        <p class="register-box__desc">{{ 'TICKET_1_DESC' | translate }}</p>
+                    </div>
+                </div>
+                <!-- Register Box -->
+            </div>
+            <div class="col-md-6">
+                <!-- Register Box -->
+                <div class="register-box">
+                    <div class="register-box__col register-box__col--left">
+                        <div class="register-box__price">
+                            <sup>$</sup>50
+                        </div>
+                        <a class="button button--primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+                    </div>
+                    <div class="register-box__col register-box__col--right">
+                        <div class="register-box__title">EXCLUSIVE</div>
+                        <hr class="hyphen">
+                        <p class="register-box__desc">{{ 'TICKET_2_DESC' | translate }}</p>
+                    </div>
+                </div>
+                <!-- Register Box -->
+            </div>
+        </div>
+    </section>
+    <div class="jumbotron jumbotron--map">
+        <div class="container jumbotron__container">
+            <section class="jumbotron__inner">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-7">
+                        <h3 class="jumbotron__title clear-gap-vertical">{{ 'BAU' | translate }}</h3>
+                        <p>{{ 'BAU_DESC' | translate }}</p>
+                        <a target="_blank" class="button button--primary" href="https://www.google.com/maps/place/Bahçeşehir+Üniversitesi/@41.041994,29.009049,17z">{{ 'MAP' | translate }}</a>
+                        <a target="_blank" class="button button--primary" href="http://www.bahcesehir.edu.tr/galeri/22-bauda-kampuste-yasam">{{ 'PHOTOS' | translate }}</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="pad-vertical-large container text-center">
+        <h3>{{ 'HOTELS' | translate }}</h3>
+        <hr class="hyphen">
+        <p>Five stars <a href="http://www.booking.com/searchresults.tr.html?src=index&nflt=&ss_raw=&error_url=http%3A%2F%2Fwww.booking.com%2Findex.tr.html%3Faid%3D318615%3Blabel%3DNew_Turkish_TR_5226434065-zpjCJmnb4EFNvnLmgmSN1wS44707853425%253Apl%253Ata%253Ap1%253Ap2%253Aac%253Aap1t1%253Aneg%3Bsid%3Dd02bab164e8a72bb46304d6394a02957%3Bdcid%3D1%3B&aid=318615&dcid=1&label=New_Turkish_TR_5226434065-zpjCJmnb4EFNvnLmgmSN1wS44707853425%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg&lang=tr&sid=d02bab164e8a72bb46304d6394a02957&si=ai%2Cco%2Cci%2Cre%2Cdi&ss=Be%C5%9Fikta%C5%9F&sb_travel_purpose=business&checkin_monthday=24&checkin_year_month=2015-7&checkout_monthday=26&checkout_year_month=2015-7&no_rooms=1&group_adults=1&group_children=0&dest_type=district&dest_id=1158">Beşiktaş Hotels</a> listed Booking.com <small>(Two days 24/26 July)</small></p>
+        <div class="clearfix pad-top">
+            <!-- Thumb Hotel -->
+            <figure class="thumb thumb--hotel gap-bottom-mobile-h">
+                <img src="img/hotels/1.jpg" alt="" class="thumb__img">
+                <figcaption class="thumb__caption">
+                    <a target="_blank" class="thumb__link" href="http://www.booking.com/hotel/tr/four-seasons-istanbul-at-the-bosphorus.tr.html">
+                        <div class="vertical-center">
+                            <h4 class="thumb__link__title">Four Seasons</h4>
+                            <h6 class="thumb__link__subtitle">Istanbul at the Bosphorus</h6>
+                        </div>
+                    </a>
+                </figcaption>
+            </figure>
+            <!-- /Thumb Hotel -->
+            <!-- Thumb Hotel -->
+            <figure class="thumb thumb--hotel gap-bottom-mobile-h">
+                <img src="img/hotels/2.jpg" alt="" class="thumb__img">
+                <figcaption class="thumb__caption">
+                    <a target="_blank" class="thumb__link" href="http://www.booking.com/hotel/tr/swissotelistanbul.tr.html">
+                        <div class="vertical-center">
+                            <h4 class="thumb__link__title">Swissotel The Bosphorus</h4>
+                            <h6 class="thumb__link__subtitle">Istanbul</h6>
+                        </div>
+                    </a>
+                </figcaption>
+            </figure>
+            <!-- /Thumb Hotel -->
+            <!-- Thumb Hotel -->
+            <figure class="thumb thumb--hotel gap-bottom-mobile-h">
+                <img src="img/hotels/3.jpg" alt="" class="thumb__img">
+                <figcaption class="thumb__caption">
+                    <a target="_blank" class="thumb__link" href="http://www.booking.com/hotel/tr/radisson-sas-bosphorus.tr.html">
+                        <div class="vertical-center">
+                            <h4 class="thumb__link__title">Radisson Blu</h4>
+                            <h6 class="thumb__link__subtitle">Bosphorus Hotel</h6>
+                        </div>
+                    </a>
+                </figcaption>
+            </figure>
+            <!-- /Thumb Hotel -->
+            <!-- Thumb Hotel -->
+            <figure class="thumb thumb--hotel">
+                <img src="img/hotels/4.jpg" alt="" class="thumb__img">
+                <figcaption class="thumb__caption">
+                    <a target="_blank" class="thumb__link" href="http://www.booking.com/hotel/tr/ciragan-palace-kempinski-istanbul.tr.html">
+                        <div class="vertical-center">
+                            <h4 class="thumb__link__title">Çırağan Palace Kempinski</h4>
+                            <h6 class="thumb__link__subtitle">Istanbul</h6>
+                        </div>
+                    </a>
+                </figcaption>
+            </figure>
+            <!-- /Thumb Hotel -->
+        </div>
+    </section>
+    <div class="pad-vertical-large bg-snow">
+        <div class="container text-center">
+            <h3>{{ 'SPONSORS' | translate }}</h3>
+            <hr class="hyphen">
+            <p class="gap-bottom-large" translate="{{ 'SPONSORS_DESC' }}"></p> 
+            <h6 class="gap-top-large-mobile-h">{{ 'HONOR' | translate }}</h6>
+            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img width="200px" src="img/sponsors/bau-io.png" alt="BAUio"></a>
+            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img width="200px" src="img/sponsors/bau.png" alt="Bahçeşehir University"></a>
+            <h6 class="gap-top-large-mobile-h">{{ 'GOLD_SPONSORS' | translate }}</h6>
+            <a target="_blank" href="http://projectz.com/" ><img width="200px" src="img/sponsors/projectz.png" alt="Projectz"></a>
+            <a target="_blank" href="https://sendloop.com/" ><img width="200px" src="img/sponsors/sendloop.png" alt="Sendloop"></a>
+            <h6 class="gap-top-large-mobile-h">{{ 'SILVER_SPONSORS' | translate }}</h6>
+            <a target="_blank" href="http://engineyard.com/" ><img src="img/sponsors/engineyard.png" alt="EngineYard"></a>
+            <a target="_blank" href="http://jetbrains.com/" ><img src="img/sponsors/jetbrains.png" alt="JetBrains"></a>
+            <a target="_blank" href="http://www.atolye15.com/" ><img src="img/sponsors/atolye15.png" alt="Atölye15"></a>
+            <h6 class="gap-top-large-mobile-h">{{ 'BRONZE_SPONSORS' | translate }}</h6>
+            <h6 class="gap-top-large-mobile-h">{{ 'MEDIA_SPONSORS' | translate }}</h6>
+            <a target="_blank" href="http://webrazzi.com/" ><img src="img/sponsors/webrazzi.png" alt="Webrazzi"></a>
+            <h6 class="gap-top-large-mobile-h">{{ 'OPEN_SPONSORS' | translate }}</h6>
+            <a target="_blank" href="https://github.com/" ><img width="150px" src="img/sponsors/github.png" alt="GitHub"></a>
+        </div>
+    </div>
+    <div class="pad-vertical-large container">
+        <h3>{{ 'CODE_OF_CONDUCT' | translate }}</h3>
+        <p translate="{{ 'CODE_OF_CONDUCT_1' }}"></p> 
+        <div class="row pad-top-small">
+            <div class="col-md-6">
+                <ul class="questions">
+                    <li class="questions__item">
+                        <span class="questions__item__no">N<sup>o</sup>1</span>
+                        <h6 class="questions__item__title">{{ 'NO_1_TITLE' | translate }}</h6>
+                        <p translate="{{ 'NO_1_DESC' }}"></p> 
+                    </li>
+                    <li class="questions__item">
+                        <span class="questions__item__no">N<sup>o</sup>2</span>
+                        <h6 class="questions__item__title">{{ 'NO_2_TITLE' | translate }}</h6>
+                        <p translate="{{ 'NO_2_DESC' }}"></p> 
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="questions">
+                    <li class="questions__item">
+                        <span class="questions__item__no">N<sup>o</sup>3</span>
+                        <h6 class="questions__item__title">{{ 'NO_3_TITLE' | translate }}</h6>
+                        <p translate="{{ 'NO_3_DESC' }}"></p> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pad-vertical-large bg-snow">
+        <div class="container text-center">
+            <h3>{{ 'TEAM' | translate }}</h3>
+            <hr class="hyphen">
+            <div class="crew-person gap-bottom-mobile-h">
+                <figure class="thumb thumb--crew">
+                    <img class="thumb__img" src="img/speakers/emir-karsiyakali.jpg" alt="">
+                </figure>
+                <h5 class="crew-person__title">Emir Karşıyakalı</h5>
+                <a target="_blank" href="http://twitter.com/EmirKarsiyakali" class="crew-person__subtitle">@EmirKarsiyakali</a>
+            </div>
+            <div class="crew-person">
+                <figure class="thumb thumb--crew">
+                    <img class="thumb__img" src="img/crew/osman-yuksel.jpg" alt="">
+                </figure>
+                <h5 class="crew-person__title">Osman Yüksel</h5>
+                <a target="_blank" href="http://twitter.com/yuxel" class="crew-person__subtitle">@yuxel</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <a class="logo logo--footer" href="http://atolye15.com" target="_blank" title="Atölye15"></a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-static-files/2.6.1/angular-translate-loader-static-files.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.4.0/js/ngDialog.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.min.js"></script>    
+    <script src="js/app.js"></script>
+    <script src="js/vendors.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-63786228-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+{
+    "speakers": {
+        "cal": {
+            "name": "Cal Evans",
+            "bio": "<p>Uzun zaman önce, henüz 14 yaşındayken Cal ilk bilgisayarına sahip oldu (Bilgisayar dediğimize bakmayın, aslında bir TRS-80 Model 1 idi). O zamandan beri hayatından \"bilgisayar\"lar hiç eksik olmadı. Önce TRS-80leri'n yerini Commodorelar, onların yerini de IBM bilgisayarlar aldı. Son 13 yıldır Cal Linux, OSX ve Windows işletim sistemlerinde PHP ve MySQL ile çalıştı. Kendisi bu süreçte basit web sayfalarından milyonlarca dolarlık web uygulamalarına dayanacak pek çok çeşitte uygulama hazırladı. Kendi deyimiyle \"bir kod bloğunu çalıştırmaya çalışırken kafasını duvarlara vurup kanını feda etmediği zamanlar\"da geliştirme takımları kurup yönetmekten oldukça zevk alır. Bu takımları yönetirken yine kendisinin oldukça ilgi gören, ama hiç patenti alınmamış \"etrafta gezerek takım yönetme\" adlı yönetim biçimini uygular. Bu günlerde, PHP ile uğraşmadığı zamanlarda Cal'i <a href=\"http://coderfaire.com/\">CoderFaire</a> gibi projelerle uğraşırken bulabilirsiniz. Kendisi ayrıca pek çok farklı ülkede konferanslara konuşmacı olarak katılmakta ve de geliştiricileri hedefleyen bu oturumlarda gerek teknik gerek de motive edici konulara değinmektedir. Eğer onu bir konferansta görürseniz ona bir viski almaktan çekinmeyin. Cal Nashville, Tennessee, Amerika doğumlu, ve de <a href=\"http://kathyevans.biz/\">Kathy</a> ile evli. Çiftin iki çocuğu var, ve de ikisi de IT sektöründe iş seçmeyecek kadar akıllı davrandılar.</p>",
+            "works": "Zend Technologies",
+            "image": "img/speakers/cal-evans.jpg"
+        },
+        "jordi": {
+            "name": "Jordi Boggiano",
+            "bio": "<p>Jordi Boggiano çeşitli açık kaynak uygulama ve de kütüphanelerin (Composer, Monolog, php-console vs.) yazarı, ve de Symfony2, Twig gibi pek çok diğer projenin de aktif bir destekçisidir. Kendisi 10 seneyi aşkın bir süredir web programlama ile ilgilenmekte, ve de ağırlıklı olarak PHP ve JavaScript kullanmaktadır. Şu an Composer/Packagist'i yönetmekte, bir yandan da Toran Proxy'de çalışamktadır. Kendisi hakkında daha fazla bilgi sahibi olmak için <a href=\"http://nelm.io/jordi\">http://nelm.io/jordi</a> adresini inceleyebilirsiniz.</p>",
+            "works": "Nelmio",
+            "image": "img/speakers/jordi-boggiano.jpg"
+        },
+        "davey": {
+            "name": "Davey Shafik",
+            "bio": "<p>Davey Shafik, 14 yılı aşkın süredir PHP ve de ilgili diğer teknolojileri kullanan tam zamanlı bir PHP geliştiricisi. Kendisi Engine Yard'da Community Engineer olarak görev almakta. Kendisinin 3 adet kitabı, onlarca makalesi bulunmaktadır ve de kendisi dünyada çeşitli ülkelerde yapılmış konferanslarda pek çok oturum gerçekleştirmiştir. Kendisi en çok <a href=\"http://zceguide.com/\">Zend PHP Certification Study</a>, <a href=\"https://learnable.com/books/php-master-write-cutting-edge-code\">PHP Master: Write Cutting Edge Code</a> gibi kitaplarıyla ve de PHP 5.3 ve daha üstü sürümler için hazırladığı <a href\"http://php.net/phar\">PHP Arşivi (PHAR)</a> ile tanınmaktadır. Davey ayrıca teknolojik konularla alakalı toplulukları iyileştirmeye oldukça hevesli. Kendisi <a href=\"http://mhprompt.org/\">Promp</a> initiative(<a href=\"http://mhprompt.org/\">mhprompt.org//a>)'in eş yöneticisidir. Bu girişim mental hastalıkları kapasyan tartışmalardaki önyargı ve de korku duygusunu yok etmeyi amaçlamakta. Bu girişim kurulumundan beri PHPWomen ile de ortak çalışmakta.</p>",
+            "works": "Engine Yard",
+            "image": "img/speakers/davey-shafik.jpg"
+        },
+        "pierre": {
+            "name": "Pierre Joye",
+            "bio": "<p>Pierre Joye çekirdek 10 yılı aşkın bir süredir PHP çekirdek geliştiricicisi olup açık kaynak projelere kaykıda bulunmakta. Kendisi PHP'nin Windows desteği kısmını yönetmekle birlikte pek çok açık kaynaklı projede de geliştirici olarak yer aldı. Kendisi uzun süre Freelancer olarak çalıştıktan sonra Almanya Redmond'daki Microsoft OpenSource tecnhology Center'da (Microsoft Açık kaynak teknoloji merkezi) işe başladı.</p>",
+            "works": "Microsoft",
+            "image": "img/speakers/pierre-joye.jpg"
+        },
+        "frank": {
+            "name": "Frank de Jonge",
+            "bio": "<p>Amsterdam menşeili olan Frank paketlere oldukça meraklı. Kendisi Flysystem'in geliştiricisi, The PHP League üyesi ve de aktif bir Laracon EU konuşmacısıdır.</p>",
+            "works": "The PHP League",
+            "image": "img/speakers/frank-de-jonge.jpg"
+        },
+        "emir": {
+            "name": "Emir Karşıyakalı",
+            "bio": "<p>Emir Karşıyakalı merakı ve ihtiyaçları doğrultusunda dünyaca ünlü CMS PHP-Nuke ile başladığı PHP serüvenine, son yedi yıldır profesyonel olarak devam ediyor. Şu an Sendloop'ta Yazılım Geliştirici olarak çalışıyor ve İstanbul PHP topluluğunu yönetiyor. Açık kaynak, topluluklar ve Laravel ile oldukça ilgili. Öğrencilik hayatı ise uzatmalı olarak Bahçeşehir Üniversitesi'nde devam ediyor.</p>",
+            "works": "Sendloop",
+            "image": "img/speakers/emir-karsiyakali.jpg"
+        },
+        "hakki": {
+            "name": "Hakkı Öcal",
+            "bio": "<p>Prof. Dr. Hakkı Öcal şu anda Bahçeşehir Üniversitesi'nde Rektör Danışmanı olarak çalışmaktadır.</p>",
+            "works": "Bahçeşehir Üniversitesi",
+            "image": "img/speakers/hakki-ocal.jpg"
+        },
+        "hidayet": {
+            "name": "Hidayet Doğan",
+            "bio": "<p>1998 yılından beridir PHP programlama dili üzerine çalışıyorum ve 2006 yılında Zend Certification sınavını alarak Zend Certified Engineer oldum. 10 yıldır Türkiye PHP Grubu yönetiminde gönüllü olarak görev yapıyorum. Fırsat bulduğum boş zamanlarımda açık kaynaklı projelerim üzerine çalışıp, Nikon D80 kameramla fotoğraf çekmeye çalışıyorum. Detaylar için <a href=\"http://hi.do/cv.html\">özgeçmişime</a> gözatabilirsiniz.</p>",
+            "works": "Bilkent University",
+            "image": "img/speakers/hidayet-dogan.jpg"
+        },
+        "muhittin": {
+            "name": "Muhittin Özer",
+            "bio": "<p>Yaklaşık 11 yıldır PHP ile sayısız proje geliştirdim. Yaklaşık 4 yıldır ise İzmir'de bu işi yapan az sayıda insandan biri olmaktan mutluluk duyuyorum ve hepsinden daha önemlisi <a href='https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/15574_10153353041793816_1836780210297648042_n.jpg?oh=d81864c7822918d380cd8d20cfb060b4&oe=55BFCC7E&__gda__=1443576320_d1321ce5c601f17a501085fd96563dee'>Zeynep</a>'in babası olmak hayatta beni en güzel tanımlayan özelliğim.</p>",
+            "works": "Atölye15",
+            "image": "img/speakers/muhittin-ozer.jpg"
+        },
+        "devrim": {
+            "name": "Devrim Gündüz",
+            "bio": "<p>Veritabanı yönetimi (DBA), PostgreSQL, ve de Linux Sunucu Yönetimi hakkında deneyimi olan Devrim RedHat ve de Fedora Linux dağıtımlarına oldukça ilgili. Kendisi ayrıca Debian sunucu yönetimi de yapmakta.</p>",
+            "works": "EnterpriseDB",
+            "image": "img/speakers/devrim-gunduz.jpg" 
+        },
+        "mert": {
+            "name": "Mert Hürtürk",
+            "bio": "<p>Kendisi Sendloop'un CTO'su ve de kurucu ortaklarındandır. 1999 senesinden bu yana pek çok sektördeki firmaya email marketing stratejileri hazırlamıştır. 15 yılı aşkın deneyim ve tecrübesiyle tüm dünyaya email marketing, marketing otomasyonu ve de email gateway servislerini sağlayan Sendloop'un kurulmasına yardımcı olmuştur. Kendisi şu anda Sendloop'ta email marketing'de yeni boyutları araştırmakta ve de kullanıcı deneyimi stratejileri üzerine çalışmaktadır.</p>",
+            "works": "Sendloop",
+            "image": "img/speakers/mert-hurturk.jpg"
+        },
+        "levent": {
+            "name": "Levent Öğüt",
+            "bio": "<p>Sendloop'ta VP of Engineering olarak görev almakta. Kendisi servislerin tasarlanması, kurulması ve de otomasyonunu üstlenmiştir.</p>",
+            "works": "Sendloop",
+            "image": "img/speakers/levent-ogut.png"
+        },
+        "mikhail": {
+            "name": "Mikhail Vink",
+            "bio": "<p>JetBrains'de PHPStorm IDE'nin ürün pazarlama yöneticisi olarak çalışan Mikhail web ile ilgilenen topluluklara çeşitli JetBrains ürünleri ile yardım etmekte. Kendisi daha öncesinde 5 yılı aşkın bir süredir çeşitli web geliştirme ve de danışma projelerinde bulundu.</p>",
+            "works": "JetBrains",
+            "image": "img/speakers/mikhail-vink.jpg"
+        },
+        "akin": {
+            "name": "Akın Moroğlu",
+            "bio": "<p>BAU Yazılım Mühendisliği mezunu. Daha önce Samsung Electronics bünyesinde kurumsal hayat denemeleri oldu fakat ona uygun olmadığını keşfederek Stanford University ve BAU ortaklaşa yürüttüğü program ile vizyonunu geliştirmeye çalıştı. Şuan BAU'da Digital Marketing operasyonlarını yürütüyor. Üniversite bünyesinde BAUio adı altında yazılım geliştirici yeteneklerin önünü açmaya çalışıyor.</p>",
+            "works": "Bahçeşehir University",
+            "image": "img/speakers/akin-moroglu.jpg"
+        }
+    }
+}
