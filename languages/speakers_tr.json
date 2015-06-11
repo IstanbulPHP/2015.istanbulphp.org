@@ -44,8 +44,8 @@
         },
         "hidayet": {
             "name": "Hidayet Doğan",
-            "bio": "<p>1998 yılından beridir PHP programlama dili üzerine çalışıyorum ve 2006 yılında Zend Certification sınavını alarak Zend Certified Engineer oldum. 10 yıldır Türkiye PHP Grubu yönetiminde gönüllü olarak görev yapıyorum. Fırsat bulduğum boş zamanlarımda açık kaynaklı projelerim üzerine çalışıp, Nikon D80 kameramla fotoğraf çekmeye çalışıyorum. Detaylar için <a href=\"http://hi.do/cv.html\">özgeçmişime</a> gözatabilirsiniz.</p>",
-            "works": "Bilkent University",
+            "bio": "<p>Hidayet, 1998 yılından beridir PHP programlama dili üzerine çalışıyor ve 2006 yılında Zend Certification sınavını alarak Zend Certified Engineer oldu. Yaklaşık 15 yıldır Türkiye PHP Grubu yönetiminde gönüllü olarak görev yapıyor. Fırsat bulduğum boş zamanlarımda açık kaynaklı projelerim üzerine çalışıyor. Detaylar için <a href=\"http://hi.do/cv.html\">özgeçmişine</a> gözatabilirsiniz.</p>",
+            "works": "Yazılım Parkı",
             "image": "img/speakers/hidayet-dogan.jpg"
         },
         "muhittin": {

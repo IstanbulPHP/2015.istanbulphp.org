@@ -44,8 +44,8 @@
         },
         "hidayet": {
             "name": "Hidayet Doğan",
-            "bio": "<p>Hidayet has been working with PHP since 1998, and has gained his Zend Certificate in 2006. He has been volunteering as a manager at PHP Turkish Group for 10 years. In his spare times, he works and contributes on open-source projects and takes photos with his Nikon d80 camera. For further details, you can check <a href=\"http://hi.do/cv.html\">his bio</a>.</p>",
-            "works": "Bilkent University",
+            "bio": "<p>Hidayet has been working with PHP since 1998, and has gained his Zend Certificate in 2006. He has been volunteering as a manager at PHP Turkish Group for about 15 years. In his spare times, he works and contributes on open-source projects. For further details, you can check <a href=\"http://hi.do/cv.html\">his bio</a>.</p>",
+            "works": "Yazılım Parkı",
             "image": "img/speakers/hidayet-dogan.jpg"
         },
         "muhittin": {
