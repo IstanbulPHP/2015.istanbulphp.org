@@ -83,6 +83,24 @@
             "bio": "<p>He's graduated from Software Engineering at Istanbul Bahcesehir University. In the past, he's gained corporal experience at Samsung Electronics, however he's realized this is not suited for him, so he's tried to improve his vision of work with a common program maintained by Stanford University and Istanbul Bahcesehir University. He's currently managing the Digital Marketing operations in BAU. He's also trying to create opportunities for software developers in BAUio, which is embodied under Bahcesehir University.</p>",
             "works": "Bahcesehir University",
             "image": "img/speakers/akin-moroglu.jpg"
+        },
+        "nesrin": {
+            "name": "Nesrin Kalender",
+            "bio": "<p>She started his career as a Front-end Developer. She's currently studying at Kocaeli University and working as a Front-end Developer in Nomad Commerce.</p>",
+            "works": "Nomad Commerce",
+            "image": "img/speakers/nesrin-kalender.jpg"
+        },
+        "sirin": {
+            "name": "Şirin Saygılı",
+            "bio": "<p>İTÜ Bilgisayar Mühendisliği bölümünden mezunum, şimdi doktora ögrencisiyim. Temel olarak ilgilendiğim alanlar bilgi edinilmesi, verinin işlenmesi (metin sınıflandırma, yazar tespiti) ve verinin bilgiye dönüştürülmesidir. Python, Java, PHP, Ubuntu, HTTP yığını, Linux-Apache-MySQL üçlüsü gündelik olarak kullandığım araçlardır. Prisync'in kurucu yazılımcılarından biriyim.</p>",
+            "works": "Prisync",
+            "image": "img/speakers/sirin-saygili.jpg"
+        },
+        "ibrahim": {
+            "name": "İbrahim Gündüz",
+            "bio": "<p>Çeşitli e-commerce firmalarında geliştirici olarak çalıştı. Ağırlıklı olarak ödeme sistemleri ve 3. parti yazılımların entegrasyonu ile ilgili işler yaptı. Şu anda backend geliştirici olarak Markafoni de çalışıyor.</p>",
+            "works": "Markafoni",
+            "image": "img/speakers/ibrahim-gunduz.jpg"
         }
     }
 }

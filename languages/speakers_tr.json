@@ -83,6 +83,24 @@
             "bio": "<p>BAU Yazılım Mühendisliği mezunu. Daha önce Samsung Electronics bünyesinde kurumsal hayat denemeleri oldu fakat ona uygun olmadığını keşfederek Stanford University ve BAU ortaklaşa yürüttüğü program ile vizyonunu geliştirmeye çalıştı. Şuan BAU'da Digital Marketing operasyonlarını yürütüyor. Üniversite bünyesinde BAUio adı altında yazılım geliştirici yeteneklerin önünü açmaya çalışıyor.</p>",
             "works": "Bahçeşehir University",
             "image": "img/speakers/akin-moroglu.jpg"
+        },
+        "nesrin": {
+            "name": "Nesrin Kalender",
+            "bio": "<p>Web alanına front-end developer olarak katılmış. Kocaeli Üniversitesi'nde Bilgisayar Programclığı okuyan biriyim. Şuan Nomad Commerce bünyesinde Front End Developer olarak çalışıyorum.</p>",
+            "works": "Nomad Commerce",
+            "image": "img/speakers/nesrin-kalender.jpg"
+        },
+        "sirin": {
+            "name": "Şirin Saygılı",
+            "bio": "<p>İTÜ Bilgisayar Mühendisliği bölümünden mezunum, şimdi doktora ögrencisiyim. Temel olarak ilgilendiğim alanlar bilgi edinilmesi, verinin işlenmesi (metin sınıflandırma, yazar tespiti) ve verinin bilgiye dönüştürülmesidir. Python, Java, PHP, Ubuntu, HTTP yığını, Linux-Apache-MySQL üçlüsü gündelik olarak kullandığım araçlardır. Prisync'in kurucu yazılımcılarından biriyim.</p>",
+            "works": "Prisync",
+            "image": "img/speakers/sirin-saygili.jpg"
+        },
+        "ibrahim": {
+            "name": "İbrahim Gündüz",
+            "bio": "<p>Çeşitli e-commerce firmalarında geliştirici olarak çalıştı. Ağırlıklı olarak ödeme sistemleri ve 3. parti yazılımların entegrasyonu ile ilgili işler yaptı. Şu anda backend geliştirici olarak Markafoni de çalışıyor.</p>",
+            "works": "Markafoni",
+            "image": "img/speakers/ibrahim-gunduz.jpg"
         }
     }
 }
