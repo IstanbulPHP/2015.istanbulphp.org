@@ -92,7 +92,7 @@
         },
         "sirin": {
             "name": "Şirin Saygılı",
-            "bio": "<p>İTÜ Bilgisayar Mühendisliği bölümünden mezunum, şimdi doktora ögrencisiyim. Temel olarak ilgilendiğim alanlar bilgi edinilmesi, verinin işlenmesi (metin sınıflandırma, yazar tespiti) ve verinin bilgiye dönüştürülmesidir. Python, Java, PHP, Ubuntu, HTTP yığını, Linux-Apache-MySQL üçlüsü gündelik olarak kullandığım araçlardır. Prisync'in kurucu yazılımcılarından biriyim.</p>",
+            "bio": "<p>She's graduated as Computer Engineering at Istanbul Technical University. She's currently a PhD student. She's mainly interested in gaining and processing (as in classifying and targeting authors) and converting such data to information. She's using tools such as Python, Java, PHP, Ubuntu, HTTP Protocol, and Linux-Apache-MySQL stack in her daily life. She's one of the founding developers of Prisync.</p>",
             "works": "Prisync",
             "image": "img/speakers/sirin-saygili.jpg"
         },
