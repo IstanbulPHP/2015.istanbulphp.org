@@ -107,6 +107,12 @@
             "bio": "<p>İstanbul Bilgi üniversitesi Bilgisayar Bilimleri mezunuyum. Altı yıldan fazladır yazılımcı olarak çalışmaktayım. Şuan da Softtech'te çalışıyorum. Genel'de web uygulamaları geliştirdim ve bir çok dilde bir şeyler yazdım ama Java benim ilk göz ağrım diyebilirim. Yazılım dünyasında olmaktan çok mutluyum çünkü öğrenecek şeyler hiç bitmiyor.</p>",
             "works": "SoftTech",
             "image": "img/speakers/meryem-alay.jpg"
+        },
+        "oytun": {
+            "name": "Oytun Tez",
+            "bio": "<p>Oytun is a technology-creator. He has a bone to pick with technology enthusiasts (\"if you like it so much, work on creating it\"). He is the Lead Developer and co-founder of MotaWord, the world's fastest human translation platform and a new transplant in New York City from Istanbul. He adores living, breathes as often as possible and carries his harmonica everywhere in his pocket.</p>",
+            "works": "MotaWord",
+            "image": "img/speakers/oytun-tez.jpg"
         }
     }
 }
