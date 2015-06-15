@@ -101,6 +101,12 @@
             "bio": "<p>Çeşitli e-commerce firmalarında geliştirici olarak çalıştı. Ağırlıklı olarak ödeme sistemleri ve 3. parti yazılımların entegrasyonu ile ilgili işler yaptı. Şu anda Software Architect olarak Markafoni de çalışıyor.</p>",
             "works": "Markafoni",
             "image": "img/speakers/ibrahim-gunduz.jpg"
+        },
+        "meryem": {
+            "name": "Meryem Alay",
+            "bio": "<p>İstanbul Bilgi üniversitesi Bilgisayar Bilimleri mezunuyum. Altı yıldan fazladır yazılımcı olarak çalışmaktayım. Şuan da Softtech'te çalışıyorum. Genel'de web uygulamaları geliştirdim ve bir çok dilde bir şeyler yazdım ama Java benim ilk göz ağrım diyebilirim. Yazılım dünyasında olmaktan çok mutluyum çünkü öğrenecek şeyler hiç bitmiyor.</p>",
+            "works": "SoftTech",
+            "image": "img/speakers/meryem-alay.jpg"
         }
     }
 }

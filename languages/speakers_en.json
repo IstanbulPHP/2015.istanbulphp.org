@@ -101,6 +101,12 @@
             "bio": "<p>He worked as developer E-Commerce companies. Core areas of experise are payment systems and third-party software integrations. Currently he works at Markafoni as Software Architect.</p>",
             "works": "Markafoni",
             "image": "img/speakers/ibrahim-gunduz.jpg"
+        },
+        "meryem": {
+            "name": "Meryem Alay",
+            "bio": "<p>İstanbul Bilgi üniversitesi Bilgisayar Bilimleri mezunuyum. Altı yıldan fazladır yazılımcı olarak çalışmaktayım. Şuan da Softtech'te çalışıyorum. Genel'de web uygulamaları geliştirdim ve bir çok dilde bir şeyler yazdım ama Java benim ilk göz ağrım diyebilirim. Yazılım dünyasında olmaktan çok mutluyum çünkü öğrenecek şeyler hiç bitmiyor.</p>",
+            "works": "SoftTech",
+            "image": "img/speakers/meryem-alay.jpg"
         }
     }
 }
