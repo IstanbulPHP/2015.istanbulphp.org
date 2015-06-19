@@ -2098,8 +2098,8 @@ td.visible-sm {
 }
 
 .thumb--hotel {
-	float: left;
 	width: 50%;
+    display: inline-block;
 }
 
 .sponsor-logo + .sponsor-logo {
@@ -2654,8 +2654,8 @@ td.visible-md {
 @media (min-width: 1024px) {
 
 .thumb--hotel {
-	float: left;
 	width: 25%;
+    display: inline-block;
 }
 
 .sponsor-logo + .sponsor-logo {
