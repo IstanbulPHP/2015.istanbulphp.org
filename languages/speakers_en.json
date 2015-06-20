@@ -113,6 +113,12 @@
             "bio": "<p>Oytun is a technology-creator. He has a bone to pick with technology enthusiasts (\"if you like it so much, work on creating it\"). He is the Lead Developer and co-founder of MotaWord, the world's fastest human translation platform and a new transplant in New York City from Istanbul. He adores living, breathes as often as possible and carries his harmonica everywhere in his pocket.</p>",
             "works": "MotaWord",
             "image": "img/speakers/oytun-tez.jpg"
+        },
+        "fatih": {
+            "name": "Fatih Kadir Akın",
+            "bio": "<p>Fatih Kadir AKIN is a JavaScript Developer. He wrote JavaScript for years, before it was cool. Writing books, organizing events about front-end and JavaScript. Organized the first JavaScript Conference in Turkey: Jstanbul. He is a passioned open-source and community supporter. The \"f\" in GitHub.</p>",
+            "works": "-",
+            "image": "img/speakers/fatih-kadir-akin.jpg"
         }
     }
 }
