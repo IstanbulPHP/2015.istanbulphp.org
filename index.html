@@ -346,6 +346,7 @@
     </div>
 
     <div id="program" class="pad-vertical-medium bg-snow">
+
             <div class="container">
                 <section class="col-lg-5 gap-bottom-tablet-h">
                     <h3 class="gap-bottom-medium">{{ 'DAY_1' | translate }}</h3>
@@ -354,99 +355,16 @@
                     <a class="button button--primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
                 </section>
                 <div class="col-lg-7">
-                    <div class="program">
-                        <!-- Program Row -->
-                        <div class="program__row">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>9:00</time>
-                                </div>
-                                <h4 class="program__item__title">Keynote: Going Pro*</h4>
-                                <small class="program__item__subtitle">Cal Evans</small>
-                                <p class="program__item__desc">What makes a developer a "professional developer"? Getting paid? Getting quoted? Publishing a book? Let's take a look at this. This talk will look at the traits that define a professional developer. Not the hard tech skills, those change with the tools being used. These are the soft and quasi-soft skills that developers have to master to be considered a professional developer. Along the way there will be some tweetable moments, and of course, a long line of bad jokes. Hopefully though, you will take away a concept that you need to work on to round out your skills and unlock your "Going Pro" badge.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>10:00</time>
-                                </div>
-                                <h4 class="program__item__title">Composer Best Practices*</h4>
-                                <small class="program__item__subtitle">Jordi Boggiano</small>
-                                <p class="program__item__desc">Composer has grown into the de-facto standard PHP dependency manager. While we struggle to make it easy to use, mastering dependency management and packaging in general remains tricky. In this session you will learn how to leverage Composer version constraints, grasp stabilities and semantic versioning along with a few more tips on being a good OSS citizen. You should already be comfortable with Composer basics and eager to learn about it some more.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>11:00</time>
-                                </div>
-                                <h4 class="program__item__title">Modern PHP</h4>
-                                <small class="program__item__subtitle">Emir Karşıyakalı</small>
-                                <p class="program__item__desc">PHP ekosisteminde son birkaç yılda olan değişiklikler, modern araçlar, ekosistem ve topluluktan bahsedilecek bu sunum, her seviyeden geliştiriciye hitap ediyor!</p>
-                            </div>
-                            <!-- /Program Item -->
+                    <div style="text-align: center" class="program">
+                        <ul>
+                            <li class="button button--primary" ng-repeat="tab in tabs" 
+                                ng-class="{active:isActiveTab(tab.url)}" 
+                                ng-click="onClickTab(tab)">{{tab.title}}</li>
+                        </ul>
+                        <div id="mainView">
+                            <div ng-include="currentTab"></div>
                         </div>
-                        <!-- /Program Row -->
-                        <!-- Program Row -->
-                        <div class="program__row">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>14:00</time>
-                                </div>
-                                <h4 class="program__item__title">Growing your filesystem*</h4>
-                                <small class="program__item__subtitle">Frank de Jonge</small>
-                                <p class="program__item__desc">When your application is under heavy load, it'll need to scale. How we handle our filesystem is a necessary step in our scaling plan. Let's grow our filesystem understanding as our app goes from 10-100 users to thousands. We'll start small, scale out, and see which hurdles we need to tackle along the way.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>15:00</time>
-                                </div>
-                                <h4 class="program__item__title"></h4>
-                                <small class="program__item__subtitle">Hidayet Doğan</small>
-                                <p class="program__item__desc"></p>
-                            </div>
-                            <!-- /Program Item -->
-                        </div>
-                        <!-- /Program Row -->
-                        <!-- Program Row -->
-                        <div class="program__row">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>16:00</time>
-                                </div>
-                                <h4 class="program__item__title">*</h4>
-                                <small class="program__item__subtitle">Pierre Joye</small>
-                                <p class="program__item__desc"></p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>17:00</time>
-                                </div>
-                                <h4 class="program__item__title">Kaya Gibi Sağlam Yazılım Projelerine İmza Atmanın 5 Prensibi</h4>
-                                <small class="program__item__subtitle">İbrahim Gündüz</small>
-                                <p class="program__item__desc">Geliştiriciler arasında her bir prensibin baş harfinin birleşiminden oluşan SOLID kelimesi ile anılan nesnel programlama ve tasarım prensiplerinin gerçek hayat örnekleri ile anlatıldığı keyifli bir sunum sizleri bekliyor.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>18:00</time>
-                                </div>
-                                <h4 class="program__item__title">Teknik Sohbet</h4>
-                                <small class="program__item__subtitle"></small>
-                                <p class="program__item__desc"></p>
-                            </div>
-                            <!-- /Program Item -->
-                        </div>
-                        <!-- /Program Row -->
+                        
                     </div>
                 </div>
             </div>
@@ -743,7 +661,115 @@
 
       ga('create', 'UA-63786228-1', 'auto');
       ga('send', 'pageview');
+    </script>
 
+    <script type="text/ng-template" id="one.tpl.html">
+        <!-- Program Row -->
+        <div class="program__row">
+            <!-- Program Item -->
+            <div class="program__item">
+                <div class="program__item__time">
+                    <time>9:00</time>
+                </div>
+                <h4 class="program__item__title">Keynote: Going Pro*</h4>
+                <small class="program__item__subtitle">Cal Evans</small>
+                <p class="program__item__desc" dd-text-collapse dd-text-collapse-max-length="140" dd-text-collapse-text="What makes a developer a professional developer? Getting paid? Getting quoted? Publishing a book? Let's take a look at this. This talk will look at the traits that define a professional developer. Not the hard tech skills, those change with the tools being used. These are the soft and quasi-soft skills that developers have to master to be considered a professional developer. Along the way there will be some tweetable moments, and of course, a long line of bad jokes. Hopefully though, you will take away a concept that you need to work on to round out your skills and unlock your Going Pro badge." class="program__item__desc"></p>
+            </div>
+            <!-- /Program Item -->
+            <!-- Program Item -->
+            <div class="program__item">
+                <div class="program__item__time">
+                    <time>10:00</time>
+                </div>
+                <h4 class="program__item__title">Composer Best Practices*</h4>
+                <small class="program__item__subtitle">Jordi Boggiano</small>
+                <p class="program__item__desc" dd-text-collapse dd-text-collapse-max-length="140" dd-text-collapse-text="Composer has grown into the de-facto standard PHP dependency manager. While we struggle to make it easy to use, mastering dependency management and packaging in general remains tricky. In this session you will learn how to leverage Composer version constraints, grasp stabilities and semantic versioning along with a few more tips on being a good OSS citizen. You should already be comfortable with Composer basics and eager to learn about it some more." class="program__item__desc"></p>
+            </div>
+            <!-- /Program Item -->
+            <!-- Program Item -->
+            <div class="program__item">
+                <div class="program__item__time">
+                    <time>11:00</time>
+                </div>
+                <h4 class="program__item__title">Modern PHP</h4>
+                <small class="program__item__subtitle">Emir Karşıyakalı</small>
+                <p class="program__item__desc">PHP ekosisteminde son birkaç yılda olan değişiklikler, modern araçlar, ekosistem ve topluluktan bahsedilecek bu sunum, her seviyeden geliştiriciye hitap ediyor!</p>
+            </div>
+            <!-- /Program Item -->
+        </div>
+        <!-- /Program Row -->
+        <!-- Program Row -->
+        <div class="program__row">
+            <!-- Program Item -->
+            <div class="program__item">
+                <div class="program__item__time">
+                    <time>14:00</time>
+                </div>
+                <h4 class="program__item__title">Growing your filesystem*</h4>
+                <small class="program__item__subtitle">Frank de Jonge</small>
+                <p class="program__item__desc">When your application is under heavy load, it'll need to scale. How we handle our filesystem is a necessary step in our scaling plan. Let's grow our filesystem understanding as our app goes from 10-100 users to thousands. We'll start small, scale out, and see which hurdles we need to tackle along the way.</p>
+            </div>
+            <!-- /Program Item -->
+            <!-- Program Item -->
+            <div class="program__item">
+                <div class="program__item__time">
+                    <time>15:00</time>
+                </div>
+                <h4 class="program__item__title"></h4>
+                <small class="program__item__subtitle">Hidayet Doğan</small>
+                <p class="program__item__desc"></p>
+            </div>
+            <!-- /Program Item -->
+        </div>
+        <!-- /Program Row -->
+        <!-- Program Row -->
+        <div class="program__row">
+            <!-- Program Item -->
+            <div class="program__item">
+                <div class="program__item__time">
+                    <time>16:00</time>
+                </div>
+                <h4 class="program__item__title">*</h4>
+                <small class="program__item__subtitle">Pierre Joye</small>
+                <p class="program__item__desc"></p>
+            </div>
+            <!-- /Program Item -->
+            <!-- Program Item -->
+            <div class="program__item">
+                <div class="program__item__time">
+                    <time>17:00</time>
+                </div>
+                <h4 class="program__item__title">Kaya Gibi Sağlam Yazılım Projelerine İmza Atmanın 5 Prensibi</h4>
+                <small class="program__item__subtitle">İbrahim Gündüz</small>
+                <p class="program__item__desc">Geliştiriciler arasında her bir prensibin baş harfinin birleşiminden oluşan SOLID kelimesi ile anılan nesnel programlama ve tasarım prensiplerinin gerçek hayat örnekleri ile anlatıldığı keyifli bir sunum sizleri bekliyor.</p>
+            </div>
+            <!-- /Program Item -->
+            <!-- Program Item -->
+            <div class="program__item">
+                <div class="program__item__time">
+                    <time>18:00</time>
+                </div>
+                <h4 class="program__item__title">Teknik Sohbet</h4>
+                <small class="program__item__subtitle"></small>
+                <p class="program__item__desc"></p>
+            </div>
+            <!-- /Program Item -->
+        </div>
+        <!-- /Program Row -->
+    </script>
+    
+    <script type="text/ng-template" id="two.tpl.html">
+        <div id="viewTwo">
+            <h1>View Two</h1>
+            <p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu.</p>
+        </div>
+    </script>
+    
+    <script type="text/ng-template" id="three.tpl.html">
+        <div id="viewThree">
+            <h1>View Three</h1>
+            <p>In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu.</p>
+        </div>
     </script>
 </body>
 </html>
