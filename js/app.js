@@ -57,5 +57,20 @@
 
   }]);
 
+  $("#tabbed-nav").zozoTabs({
+    theme: "white",
+    orientation: "horizantal",
+    position: "top-left",
+    size: "medium",
+    shadows: false,
+    type: "css",
+    animation: {
+      easing: "easeInOutExpo",
+      duration: 400,
+      effects: "slideH"
+    },
+    defaultTab: "tab1"
+  });
+
 }());
 

@@ -18,6 +18,8 @@
     <meta property="og:url" content="http://phpkonf.org/" />
     <meta property="og:image" content="http://phpkonf.org/img/covers/phpkonf2014.jpg" />
     <meta property="og:description" content="PHPKonf: 25/26 Temmuz 2015'de Bahçeşehir Üniversitesi'nde düzenlenecek PHP Konferansı hakkında bilgilere ulaşabileceğiniz web sitesi." />
+    <link rel=stylesheet href="libs/zozo-tabs/css/zozo.examples.min.css">
+    <link rel=stylesheet href="libs/zozo-tabs/css/zozo.tabs.min.css">
     <link rel=stylesheet href="css/main.min.css">
 
     <!--[if lt IE 9]>
@@ -144,8 +146,6 @@
                             </a>
                         </figcaption>
                     </figure>
-                </div>
-                <div class="honeycomb-line">
                     <figure class="honeycomb" href="">
                         <img class="honeycomb__img" src="img/speakers/frank-de-jonge.jpg" alt="">
                         <figcaption class="honeycomb__caption">
@@ -168,6 +168,9 @@
                             </a>
                         </figcaption>
                     </figure>
+                </div>
+                <div class="honeycomb-line">
+
                     <figure class="honeycomb" href="">
                         <img class="honeycomb__img" src="img/speakers/devrim-gunduz.jpg" alt="">
                         <figcaption class="honeycomb__caption">
@@ -190,8 +193,6 @@
                             </a>
                         </figcaption>
                     </figure>
-                </div>
-                <div class="honeycomb-line">
                     <figure class="honeycomb" href="">
                         <img class="honeycomb__img" src="img/speakers/emir-karsiyakali.jpg" alt="">
                         <figcaption class="honeycomb__caption">
@@ -236,6 +237,9 @@
                             </a>
                         </figcaption>
                     </figure>
+                </div>
+                <div class="honeycomb-line">
+
                     <!-- <figure class="honeycomb" href="">
                         <img class="honeycomb__img" src="img/speakers/blank.jpg" alt="">
                         <figcaption class="honeycomb__caption">
@@ -293,8 +297,6 @@
                             </a>
                         </figcaption>
                     </figure>
-                </div>
-                <div class="honeycomb-line">
                     <figure class="honeycomb" href="">
                         <img class="honeycomb__img" src="img/speakers/ibrahim-gunduz.jpg" alt="">
                         <figcaption class="honeycomb__caption">
@@ -317,6 +319,9 @@
                             </a>
                         </figcaption>
                     </figure>
+                </div>
+                <div class="honeycomb-line">
+
                     <figure class="honeycomb" href="">
                         <img class="honeycomb__img" src="img/speakers/oytun-tez.jpg" alt="">
                         <figcaption class="honeycomb__caption">
@@ -346,222 +351,759 @@
     </div>
 
     <div id="program" class="pad-vertical-medium bg-snow">
-            <div class="container">
-                <section class="col-lg-5 gap-bottom-tablet-h">
-                    <h3 class="gap-bottom-medium">{{ 'DAY_1' | translate }}</h3>
-                    <p class="gap-bottom-medium">{{ 'DAY_1_DESC' | translate }}
-                    </p>
-                    <a class="button button--primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
-                </section>
-                <div class="col-lg-7">
-                    <div class="program">
-                        <div style="text-align: center; font-weight: bold;">
-                            <p>We haven't finished multi-track schedule yet. You can see up-to-date schedule is <a target="_blank" href="https://docs.google.com/document/d/19a1VZ-rfjiGgqGsKzMEXS_UFkbstjvQgZoj32mvQZpI/edit">here!</a></p>
-                        </div>
-                        <!-- Program Row -->
-                        <div class="program__row" style="opacity: 0.5;">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>9:00</time>
-                                </div>
-                                <h4 class="program__item__title">Keynote: Going Pro*</h4>
-                                <small class="program__item__subtitle">Cal Evans</small>
-                                <p class="program__item__desc">What makes a developer a "professional developer"? Getting paid? Getting quoted? Publishing a book? Let's take a look at this. This talk will look at the traits that define a professional developer. Not the hard tech skills, those change with the tools being used. These are the soft and quasi-soft skills that developers have to master to be considered a professional developer. Along the way there will be some tweetable moments, and of course, a long line of bad jokes. Hopefully though, you will take away a concept that you need to work on to round out your skills and unlock your "Going Pro" badge.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>10:00</time>
-                                </div>
-                                <h4 class="program__item__title">Composer Best Practices*</h4>
-                                <small class="program__item__subtitle">Jordi Boggiano</small>
-                                <p class="program__item__desc">Composer has grown into the de-facto standard PHP dependency manager. While we struggle to make it easy to use, mastering dependency management and packaging in general remains tricky. In this session you will learn how to leverage Composer version constraints, grasp stabilities and semantic versioning along with a few more tips on being a good OSS citizen. You should already be comfortable with Composer basics and eager to learn about it some more.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>11:00</time>
-                                </div>
-                                <h4 class="program__item__title">Modern PHP</h4>
-                                <small class="program__item__subtitle">Emir Karşıyakalı</small>
-                                <p class="program__item__desc">PHP ekosisteminde son birkaç yılda olan değişiklikler, modern araçlar, ekosistem ve topluluktan bahsedilecek bu sunum, her seviyeden geliştiriciye hitap ediyor!</p>
-                            </div>
-                            <!-- /Program Item -->
-                        </div>
-                        <!-- /Program Row -->
-                        <!-- Program Row -->
-                        <div class="program__row" style="opacity: 0.5;">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>14:00</time>
-                                </div>
-                                <h4 class="program__item__title">Growing your filesystem*</h4>
-                                <small class="program__item__subtitle">Frank de Jonge</small>
-                                <p class="program__item__desc">When your application is under heavy load, it'll need to scale. How we handle our filesystem is a necessary step in our scaling plan. Let's grow our filesystem understanding as our app goes from 10-100 users to thousands. We'll start small, scale out, and see which hurdles we need to tackle along the way.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>15:00</time>
-                                </div>
-                                <h4 class="program__item__title">PHP ile Soket Programlama ve Ağ Servisleri</h4>
-                                <small class="program__item__subtitle">Hidayet Doğan</small>
-                                <p class="program__item__desc">PHP ile soket programlama nasıl yapılır, ağ servisleri nasıl oluşturulabilir, günümüzde adını sıkça duyduğumuz WebSocket ve gerçek zamanlı web uygulamalarını PHP ile nasıl geliştirebiliriz gibi soruların yanıtlarını alıp, bunlar için geliştirilen kütüphane ve eklentileri tanıyacağız.</p>
-                            </div>
-                            <!-- /Program Item -->
-                        </div>
-                        <!-- /Program Row -->
-                        <!-- Program Row -->
-                        <div class="program__row" style="opacity: 0.5;">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>16:00</time>
-                                </div>
-                                <h4 class="program__item__title">HHVM, PHP7 & co*</h4>
-                                <small class="program__item__subtitle">Pierre Joye</small>
-                                <p class="program__item__desc">PHP 7 is on track, 1st test releases are out, everyone work hard to get the next php major version out. Dozen of patches have reached the branch,amazing RFCs have been worked on and commited. Are you ready to migrate? Hopefully yes! If not and you still need to improve performances, then let take a look at the alternatives. Be full stack alternative PHP implementations like php or small additions to speedup the critical parts of your apps.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>17:00</time>
-                                </div>
-                                <h4 class="program__item__title">Kaya Gibi Sağlam Yazılım Projelerine İmza Atmanın 5 Prensibi</h4>
-                                <small class="program__item__subtitle">İbrahim Gündüz</small>
-                                <p class="program__item__desc">Geliştiriciler arasında her bir prensibin baş harfinin birleşiminden oluşan SOLID kelimesi ile anılan nesnel programlama ve tasarım prensiplerinin gerçek hayat örnekleri ile anlatıldığı keyifli bir sunum sizleri bekliyor.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>18:00</time>
-                                </div>
-                                <h4 class="program__item__title">Teknik Sohbet</h4>
-                                <small class="program__item__subtitle">Hakkı Öcal, Uğur Aydoğdu</small>
-                                <p class="program__item__desc"></p>
-                            </div>
-                            <!-- /Program Item -->
-                        </div>
-                        <!-- /Program Row -->
-                    </div>
-                </div>
-            </div>
-            <hr />
-            <div class="container">
-                <section class="col-lg-5 gap-bottom-tablet-h">
-                    <h3 class="gap-bottom-medium">{{ 'DAY_2' | translate }}</h3>
-                    <p class="gap-bottom-medium">{{ 'DAY_2_DESC' | translate }}
-                    </p>
-                    <a class="button button--primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
-                </section>
-                <div class="col-lg-7">
-                    <div class="program">
-                        <div style="text-align: center; font-weight: bold;">
-                            <p>We haven't finished multi-track schedule yet. You can see up-to-date schedule is <a target="_blank" href="https://docs.google.com/document/d/19a1VZ-rfjiGgqGsKzMEXS_UFkbstjvQgZoj32mvQZpI/edit">here!</a></p>
-                        </div>
-                        <!-- Program Row -->
-                        <div class="program__row" style="opacity: 0.5;">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>9:00</time>
-                                </div>
-                                <h4 class="program__item__title">Keynote: Uzun soluklu projelerde kod yönetimi, sorular ve kararlar</h4>
-                                <small class="program__item__subtitle">Mert Hürtürk</small>
-                                <p class="program__item__desc">Bu sunumda 1 yıldan fazla süredir ayakta duran, daha da durması planlanan ve üzerinde devamlı geliştirmeler yapılan yazılım projelerinde karşılaşılan problemler, sürdürülebilirlik ve stratejiler üzerine bilgi ve tecrübelerin paylaşılacaktır.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>10:00</time>
-                                </div>
-                                <h4 class="program__item__title">What to Expect When You're Expecting: PHP 7*</h4>
-                                <small class="program__item__subtitle">Davey Shafik</small>
-                                <p class="program__item__desc">PHP 7 is coming, and with it will come new features, backwards compatibility breaks, and huge performance gains. This talk will get you prepared for all the changes in this upcoming release and offer practical advice you can implement now to ensure you code still works come upgrade time.
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="tabbed-nav">
+
+                        <!-- Tab Navigation Menu -->
+                        <ul>
+                            <li><a>{{ 'DAY_1' | translate }} </a></li>
+                            <li><a>{{ 'DAY_2' | translate }}</a></li>
+
+
+                        </ul>
+
+                        <!-- Content container -->
+                        <div>
+
+                            <!-- DAY1 -->
+                            <div>
+                                <p class="gap-bottom-medium">{{ 'DAY_1_DESC' | translate }}
                                 </p>
+                                <a class="gap-bottom-medium button button--primary"
+                                   href="http://istanbulphp.eventbrite.com/" target="_blank">{{
+                                    'REGISTER' | translate }}</a>
+
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>{{ 'DATE' | translate }}</th>
+                                        <th><h4>BKONF</h4></th>
+                                        <th><h4>Fazıl Say Hall</h4></th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>08:00</td>
+                                        <td colspan="2" class="text-center"><h6>Registration</h6></td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>09:00</td>
+                                        <td colspan="2" class="text-center">
+                                            <h6>Keynote going Pro</h6><span>Cal Evans</span>
+
+                                            <p class="text-left">
+
+                                                What makes a developer a "professional developer"? Getting paid? Getting
+                                                quoted? Publishing a book? Let's take a look at this. This talk will look at
+                                                the traits that define a professional developer. Not the hard tech skills,
+                                                those change with the tools being used. These are the soft and quasi-soft
+                                                skills that developers have to master to be considered a professional
+                                                developer. Along the way there will be some tweetable moments, and of
+                                                course, a long line of bad jokes. Hopefully though, you will take away a
+                                                concept that you need to work on to round out your skills and unlock your
+                                                "Going Pro" badge.
+
+
+                                            </p>
+                                        </td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>10:00</td>
+                                        <td>
+                                            <h6>Composer best pratices</h6><span>Jordi Boggianno</span>
+
+                                            <p>
+
+
+                                                Composer has grown into the de-facto standard PHP dependency manager. While
+                                                we struggle to make it easy to use, mastering dependency management and
+                                                packaging in general remains tricky. In this session you will learn how to
+                                                leverage Composer version constraints, grasp stabilities and semantic
+                                                versioning along with a few more tips on being a good OSS citizen. You
+                                                should already be comfortable with Composer basics and eager to learn about
+                                                it some more.
+
+
+                                            </p>
+                                        </td>
+                                        <td>&nbsp;</td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                        <td>
+                                            <h6>Modern PHP</h6><span>Emir Karşıyakalı</span>
+
+                                            <p>PHP ekosisteminde son birkaç yılda olan değişiklikler, PHP7, modern araçlar,
+                                                ekosistem ve topluluktan bahsedilecek bu sunum, her seviyeden geliştiriciye
+                                                hitap ediyor!</p>
+
+                                        </td>
+                                        <td>Akın Moroğlu</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>12:00</td>
+                                        <td colspan="2" class="text-center lunch"><h6>Lunch</h6></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>13:00</td>
+                                        <td>
+
+                                            <h6>Growing your filesystem</h6>
+                                            <span>Frank de Jonge</span>
+
+                                            <p>
+                                                When your application is under heavy load, it'll need to scale. How we
+                                                handle our filesystem is a necessary step in our scaling plan. Let's grow
+                                                our filesystem understanding as our app goes from 10-100 users to thousands.
+                                                We'll start small, scale out, and see which hurdles we need to tackle along
+                                                the way.
+                                            </p>
+
+
+                                        </td>
+                                        <td>
+
+                                            <h6>PHP Uygulamalarınızı Güçlendirin</h6><span>Muhittin Özer</span>
+
+                                            <p>
+                                                Arama motoru, kuyruklama ve cache teknolojileri ile PHP uygulamalarına nasıl
+                                                güç katılabileceğinin anlatılacağı bu oturumda bahsedilen teknolojilerin öne
+                                                çıkanları hakkında genel bir bilgilendirme yapılacaktır.
+
+                                            </p>
+
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>14:00</td>
+                                        <td>
+                                            <h6>PHP ve SOA deneyimleri</h6><span>Osman Üngür</span>
+
+                                            <p> Hayatta ve yazılım geliştirme döngüsünde değişmeyen tek şey değişimin
+                                                kendisidir. Bu sunum varolan monolitik projelerin servis odaklı mimariye
+                                                evrilmesi, servis odaklı modelleme, tasarım konseptleri, prensipleri,
+                                                karşılaşılan problemler, ölçekleme gibi konuları ele almaktadır.</p>
+
+                                        </td>
+                                        <td>
+                                            <h6>Advanced Monitoring</h6>
+                                            <span>Mustafa Kutsal Ay</span>
+
+                                            <p>-</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00</td>
+                                        <td>
+                                            <h6>Design Patterns, the practical approach in PHP</h6><span>Hugo Hamon</span>
+
+                                            <p>
+                                                Design patterns are conceptual solutions to solve common redundant problems
+                                                in software engineering. However, learning them is not easy as litterature
+                                                or tutorials on the Internet often introduce them with theorical examples.
+                                                This talk gives you a slightly different approach by introducing design
+                                                patterns with practical code samples to solve real world problems. You won't
+                                                just learn design patterns, you will also discover how to leverage them for
+                                                your next PHP projects.
+                                            </p>
+
+                                        </td>
+                                        <td>
+                                            <h6>PHP ile Soket Programlama ve Ağ Servisleri </h6>
+                                            <span>Hidayet Doğan</span>
+
+                                            <p>
+                                                PHP ile soket programlama nasıl yapılır, ağ servisleri nasıl
+                                                oluşturulabilir, günümüzde adını sıkça duyduğumuz WebSocket ve gerçek
+                                                zamanlı web uygulamalarını PHP ile nasıl geliştirebiliriz gibi soruların
+                                                yanıtlarını alıp, bunlar için geliştirilen kütüphane ve eklentileri
+                                                tanıyacağız.
+
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:00</td>
+                                        <td>
+                                            <h6>HHVM, PHP7 & co</h6><span>Pierre Joye</span>
+
+                                            <p>
+                                                PHP 7 is on track, 1st test releases are out, everyone work hard to get the
+                                                next php major version out. Dozen of patches have reached the branch,amazing
+                                                RFCs have been worked on and commited. Are you ready to migrate? Hopefully
+                                                yes! If not and you still need to improve performances, then let take a
+                                                look at the alternatives. Be full stack alternative PHP implementations like
+                                                php or small additions to speedup the critical
+                                                parts of your apps.
+
+                                            </p>
+
+                                        </td>
+                                        <td>
+                                            <h6>Docker & Dockerizing PHP Applications</h6>
+                                            <span>Berat Doğan</span>
+
+                                            <p>
+                                                Bu sunumda gitgide popülerliği artan yeni sanallaştırma yöntemi olan Linux
+                                                Container'ları tanıtılacak. Docker ile LXC'lerin kontrolü, PHP uygulamaları
+                                                için servis bazlı sistemler hazırlama konusunda uygulamalı olarak sunum
+                                                yapılacak. Dockerize edilecek uygulama Symfony App + Nginx + Mysql + Varnish
+                                                servislerinden oluşacak.
+
+
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:00</td>
+                                        <td>
+                                            <h6>PHP Interoperability with PPI Framework</h6><span>Paul Dragoonis</span>
+
+                                            <p>
+                                                There's lot of buzz these days about PHP Interoperability (PHP-FIG, PSR).
+                                                Paul's talk will initially be on the benefits of PHP interoperability and
+                                                what added value it brings to the PHP table. He will then dive straight into
+                                                showing how to practically take advantage of Interoperability, in
+                                                real-world projects by using the PPI Framework. PPI Framework goes beyond
+                                                the basic PSR's that are in the PHP-FIG and takes things to the next level.
+                                                Come along and see how PPI Framework will put you in the driving seat and
+                                                let you easily consume the PHP eco-system into your project.
+
+                                            </p>
+
+                                        </td>
+                                        <td>
+                                            <h6>WP REST API sonrası WordPress ekosistemi ve kullanım alanları</h6>
+                                            <span>? ?</span>
+
+                                            <p>
+                                                Sunumda, yaklaşık iki yıldır geliştirilen ve WordPress core yapısına
+                                                katılması için çalışılan WP REST API, hem WordPress ekosistemi hem de mobil
+                                                uygulamalar gibi farklı alanlarda ne gibi değişiklikler ve kullanım alanları
+                                                bulacağı anlatılacak.
+
+
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00</td>
+                                        <td class="text-center" colspan="2">
+                                            <h6>Teknik Sohbet</h6><span>Hakkı Öcal , Uğur Aydoğdu</span>
+
+
+                                        </td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+
                             </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>11:00</time>
-                                </div>
-                                <h4 class="program__item__title">PhpStorm: 42 Tips and Tricks*</h4>
-                                <small class="program__item__subtitle">Mikhail Vink</small>
-                                <p class="program__item__desc">With the PhpStorm IDE buzzing in modern PHP community, there are always many neat things to learn for better synergy with your every-day tool for web development. This session will give you an insight on 42 powerful tips and tricks that will make you more productive and efficient. From lightning-smart navigation to debugging and testing hidden tricks, from making UI of the IDE even more suitable for presentations to some handy tools integrations - all of those tips will find a good use in your development workflow.</p>
+                            <!-- DAY2 -->
+                            <div>
+                                <p class="gap-bottom-medium">{{ 'DAY_2_DESC' | translate }}
+                                </p>
+                                <a class="gap-bottom-medium button button--primary"
+                                   href="http://istanbulphp.eventbrite.com/" target="_blank">{{
+                                    'REGISTER' | translate }}</a>
+
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>{{ 'DATE' | translate }}</th>
+                                        <th><h4>BKONF</h4></th>
+                                        <th><h4>Fazıl Say Hall</h4></th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>08:00</td>
+                                        <td colspan="2" class="text-center"><h6>Registration</h6></td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>09:00</td>
+                                        <td colspan="2" class="text-center">
+                                            <h6>Keynote: Uzun soluklu projelerde kod yönetimi, sorular ve kararlar
+                                            </h6><span>Mert Hürtürk</span>
+
+                                            <p class="text-left">
+
+                                                Bu sunumda 1 yıldan fazla süredir ayakta duran, daha da durması planlanan ve
+                                                üzerinde devamlı geliştirmeler yapılan yazılım projelerinde karşılaşılan
+                                                problemler, sürdürülebilirlik ve stratejiler üzerine bilgi ve tecrübelerin
+                                                paylaşılacaktır.
+
+
+                                            </p>
+                                        </td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>10:00</td>
+                                        <td>
+                                            <h6>What to Expect When You're Expecting: PHP 7</h6><span>Davey Shafik</span>
+
+                                            <p>
+
+
+                                                PHP 7 is coming, and with it will come new features, backwards compatibility
+                                                breaks, and huge performance gains. This talk will get you prepared for all
+                                                the changes in this upcoming release and offer practical advice you can
+                                                implement now to ensure you code still works come upgrade time.
+
+
+                                            </p>
+                                        </td>
+                                        <td>&nbsp;</td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                        <td>
+                                            <h6>Beyond Testing</h6><span>Michael Bodnarchuk</span>
+
+                                            <p>
+                                                Yes, you know, you should have written that test! But what If you already do
+                                                writing tests, but you don't see the result of your actions. Tests run slow,
+                                                they are fragile, hard to read and maintain. Fixing a test is harder than
+                                                disabling it.
+
+                                                Don't blame yourself. It's not about you, it's about some points you should
+                                                have taken into account while your testing
+                                                codebase grew. In this talk I will tell you about
+
+                                                * What are best practices for tests (with code samples)
+                                                * Should you follow TDD or not
+                                                * What are acceptance || functional || unit tests
+                                                * Do we need acceptance tests and what framework to choose: Behat,
+                                                Codeception, Selenium, PhantomJS
+                                                * How to test untestable code
+                                                * How data should be managed (Fixtures, FactoryMuffin)
+                                                * Creating isolated test environments with Docker
+                                                * Parallel testing with Docker
+
+                                            </p>
+
+                                        </td>
+                                        <td><h6>Kim korkar OOP'dan?</h6><span>Midori Koçak</span>
+
+                                            <p>
+                                                Anneye anlatır gibi Nesne Yönelimli Programlama sunumudur. Yoksa siz hala
+                                                spaghetti mi seviyorsunuz? Nesne nedir? Neye yarar? Korkulacak bir şey
+                                                midir? Değil midir? Kodlarınızı yönetirken, başkaları okurken saç baş
+                                                yolmasın diye, derli toplu düzenli olmayı "Projelerle PHP" kitabının yazarı
+                                                Mutlu Koçak bebek adımlarıyla anlatıyor.
+
+                                            </p></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>12:00</td>
+                                        <td colspan="2" class="text-center lunch"><h6>Lunch</h6></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>13:00</td>
+                                        <td>
+
+                                            <h6>PhpStorm: 42 Tips and Tricks</h6>
+                                            <span>Mikhail Vink</span>
+
+                                            <p>
+                                                With the PhpStorm IDE buzzing in modern PHP community, there are always many
+                                                neat things to learn for better synergy with your every-day tool for web
+                                                development. This session will give you an insight on 42 powerful tips and
+                                                tricks that will make you more productive and efficient. From
+                                                lightning-smart navigation to debugging and testing hidden tricks, from
+                                                making UI of the IDE even more suitable for presentations to some handy
+                                                tools integrations - all of those tips will find a good use in your
+                                                development workflow.
+
+                                            </p>
+
+
+                                        </td>
+                                        <td>
+
+                                            <h6>Günlük hayatta işe yarar GIT ipuçları</h6><span>Uğur Özyılmazel</span>
+
+                                            <p>
+                                                `add`, `pull`, `push` ve `commit` dışında hayatımızı kolaylaştıran GIT
+                                                komutları, gündelik kullanımları ve faydalı komut satırı hileleri.
+
+
+                                            </p>
+
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>14:00</td>
+                                        <td>
+                                            <h6>Puli: PHP's Next Package Revolution</h6><span>Bernhard Schussek</span>
+
+                                            <p> The development of Composer packages is thriving. But much effort is
+                                                duplicated, creating the same packages but for different frameworks. Why not
+                                                join forces and create great tools together, for everyone? Puli, a new
+                                                toolkit built on top of Composer, is a step to make this possible. With
+                                                Puli, you can create packages that can be enabled in any project (Plug 'n
+                                                Play) simply by running "composer install" - independent of your framework.
+                                                Are you ready for the future of PHP?
+                                            </p>
+
+                                        </td>
+                                        <td>
+                                            <h6>Nginx'i kullanarak yüksek hacimli trafiğin üstesinden nasıl gelinir?
+                                            </h6>
+                                            <span>Hüseyin Mert</span>
+
+                                            <p>Web uygulamalarınızın LoadBalancer, Cache ve Proxy ihtiyacını nasıl
+                                                giderilir? Lua veya Memcache modüllerini nasıl kullanırdığının ve daha
+                                                fazlasının cevabını bu sunumda bulacaksınız.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00</td>
+                                        <td>
+                                            <h6>MySQL kullanıcıları için PostgreSQL'in avantajları
+                                            </h6><span>Devrim Gündüz</span>
+
+                                            <p>
+                                                --
+                                            </p>
+
+                                        </td>
+                                        <td>
+                                            <h6>OAuth 2.0: Konsept ve Uygulama
+                                            </h6>
+                                            <span>Oytun Tez</span>
+
+                                            <p>
+                                                Bu oturumda OAuth 2.0 ve öğelerini tanımlayacak ve gerçek hayat örnekleri
+                                                işleyeceğiz. OAuth 2.0 nedir? Neden dün yoktu ve bugün var? Benim işime
+                                                nasıl yarar? 5 yıl sonra hala kullanacak mıyız? Bu gibi soruları
+                                                cevaplayacağız ve PHP dünyasında OAuth 2.0 uygulamalarını nasıl
+                                                geliştirdiğimizi göreceğiz.
+
+
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:00</td>
+                                        <td>
+                                            <h6>Kaya Gibi Sağlam Yazılım Projelerine İmza Atmanın 5 Prensibi
+                                            </h6><span>İbrahim Gündüz</span>
+
+                                            <p>
+                                                Geliştiriciler arasında her bir prensibin baş harfinin birleşiminden oluşan
+                                                SOLID kelimesi ile anılan nesnel programlama ve tasarım prensiplerinin
+                                                gerçek hayat örnekleri ile anlatıldığı keyifli bir sunum sizleri bekliyor.
+
+
+                                            </p>
+
+                                        </td>
+                                        <td>
+                                            <h6>Yazılım Geliştirme Süreçleri ve Agile Kültürü
+                                            </h6>
+                                            <span>Emrah Işıklı</span>
+
+                                            <p>
+                                                Yazılım geliştirme süreçlerinin ve agile yaklaşımlarının gerçek örneklerle
+                                                anlatıldığı keyifli bir sunum.
+
+
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:00</td>
+                                        <td>
+                                            <h6>Pratik Redis</h6><span>Emre Yılmaz</span>
+
+                                            <p>
+                                                Redis, son yıllarda kendisini endüstri standartı olarak kanıtlamış bir
+                                                in-memory veritabanıdır. Redis'in pratik kullanım alanlarından, çalışma
+                                                senaryolarına uygulamalı bir şekilde değineceğiz.
+
+
+                                            </p>
+
+                                        </td>
+                                        <td>
+                                            <h6>Arayüz Geliştirmede Flux Mimarisi
+                                            </h6>
+                                            <span>Fatih Kadir Akın</span>
+
+                                            <p>
+                                                Flux, Facebook tarafından geliştirilen MVC alternatifi bir tasarım
+                                                şablonudur. Bu tasarım şablonu, veri güdümlü işlemesi sayesinde arayüzlerin
+                                                daha kararlı olmasını sağlar. Bu konuşmada bu yapının MVC’den farkını,
+                                                arayüzleri daha kararlı nasıl yapabildiğini, faydalarını ve mevcut yapılara
+                                                entegrasyonunu anlatacağız.
+
+
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00</td>
+                                        <td class="text-center" colspan="2">
+                                            <h6>Kadın Yazılımcı
+                                            </h6><span>Nesrin Kalender, Şirin Saygılı, Meryem Alay</span>
+
+
+                                        </td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+
                             </div>
-                            <!-- /Program Item -->
+
                         </div>
-                        <!-- /Program Row -->
-                        <!-- Program Row -->
-                        <div class="program__row" style="opacity: 0.5;">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>12:00</time>
-                                </div>
-                                <h4 class="program__item__title">Beyond Testing*</h4>
-                                <small class="program__item__subtitle">Michael Bodnarchuk</small>
-                                <p class="program__item__desc">Yes, you know, you should have written that test! But what If you already do writing tests, but you don't see the result of your actions. Tests run slow, they are fragile, hard to read and maintain. Fixing a test is harder than disabling it. Don't blame yourself. It's not about you, it's about some points you should have taken into account while your testing codebase grew. In this talk I will tell you about: What are best practices for tests (with code samples), Should you follow TDD or not, What are acceptance || functional || unit tests, Do we need acceptance tests and what framework to choose: Behat, Codeception, Selenium, PhantomJS, How to test untestable code, How data should be managed (Fixtures, FactoryMuffin), Creating isolated test environments with Docker, Parallel testing with Docker.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>14:00</time>
-                                </div>
-                                <h4 class="program__item__title">PHP Uygulamalarınızı Güçlendirin</h4>
-                                <small class="program__item__subtitle">Muhittin Özer</small>
-                                <p class="program__item__desc">Arama motoru, kuyruklama ve cache teknolojileri ile PHP uygulamalarına nasıl güç katılabileceğinin anlatılacağı bu oturumda bahsedilen teknolojilerin öne çıkanları hakkında genel bir bilgilendirme yapılacaktır.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>15:00</time>
-                                </div>
-                                <h4 class="program__item__title">MySQL kullanıcıları için PostgreSQL'in avantajları</h4>
-                                <small class="program__item__subtitle">Devrim Gündüz</small>
-                                <p class="program__item__desc"></p>
-                            </div>
-                            <!-- /Program Item -->
-                        </div>
-                        <!-- /Program Row -->
-                        <!-- Program Row -->
-                        <div class="program__row" style="opacity: 0.5;">
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>17:00</time>
-                                </div>
-                                <h4 class="program__item__title">Arayüz Geliştirmede Flux Mimarisi</h4>
-                                <small class="program__item__subtitle">Fatih Kadir Akın</small>
-                                <p class="program__item__desc">Flux, Facebook tarafından geliştirilen MVC alternatifi bir tasarım şablonudur. Bu tasarım şablonu, veri güdümlü işlemesi sayesinde arayüzlerin daha kararlı olmasını sağlar. Bu konuşmada bu yapının MVC’den farkını, arayüzleri daha kararlı nasıl yapabildiğini, faydalarını ve mevcut yapılara entegrasyonunu anlatacağız.</p>
-                            </div>
-                            <!-- /Program Item -->
-                            <!-- Program Item -->
-                            <div class="program__item">
-                                <div class="program__item__time">
-                                    <time>18.00</time>
-                                </div>
-                                <h4 class="program__item__title">Kadın Yazılımcı</h4>
-                                <small class="program__item__subtitle">Nesrin Kalender, Meryem Alay, Şirin Saygılı</small>
-                                <p class="program__item__desc"></p>
-                            </div>
-                            <!-- /Program Item -->
-                        </div>
-                        <!-- /Program Row -->
                     </div>
                 </div>
             </div>
+
+
+        </div>
+            <!--<div class="container">-->
+                <!--<section class="col-lg-5 gap-bottom-tablet-h">-->
+                    <!--<h3 class="gap-bottom-medium">{{ 'DAY_1' | translate }}</h3>-->
+                    <!--<p class="gap-bottom-medium">{{ 'DAY_1_DESC' | translate }}-->
+                    <!--</p>-->
+                    <!--<a class="button button&#45;&#45;primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>-->
+                <!--</section>-->
+                <!--<div class="col-lg-7">-->
+                    <!--<div class="program">-->
+                        <!--<div style="text-align: center; font-weight: bold;">-->
+                            <!--<p>We haven't finished multi-track schedule yet. You can see up-to-date schedule is <a target="_blank" href="https://docs.google.com/document/d/19a1VZ-rfjiGgqGsKzMEXS_UFkbstjvQgZoj32mvQZpI/edit">here!</a></p>-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; Program Row &ndash;&gt;-->
+                        <!--<div class="program__row" style="opacity: 0.5;">-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>9:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Keynote: Going Pro*</h4>-->
+                                <!--<small class="program__item__subtitle">Cal Evans</small>-->
+                                <!--<p class="program__item__desc">What makes a developer a "professional developer"? Getting paid? Getting quoted? Publishing a book? Let's take a look at this. This talk will look at the traits that define a professional developer. Not the hard tech skills, those change with the tools being used. These are the soft and quasi-soft skills that developers have to master to be considered a professional developer. Along the way there will be some tweetable moments, and of course, a long line of bad jokes. Hopefully though, you will take away a concept that you need to work on to round out your skills and unlock your "Going Pro" badge.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>10:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Composer Best Practices*</h4>-->
+                                <!--<small class="program__item__subtitle">Jordi Boggiano</small>-->
+                                <!--<p class="program__item__desc">Composer has grown into the de-facto standard PHP dependency manager. While we struggle to make it easy to use, mastering dependency management and packaging in general remains tricky. In this session you will learn how to leverage Composer version constraints, grasp stabilities and semantic versioning along with a few more tips on being a good OSS citizen. You should already be comfortable with Composer basics and eager to learn about it some more.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>11:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Modern PHP</h4>-->
+                                <!--<small class="program__item__subtitle">Emir Karşıyakalı</small>-->
+                                <!--<p class="program__item__desc">PHP ekosisteminde son birkaç yılda olan değişiklikler, modern araçlar, ekosistem ve topluluktan bahsedilecek bu sunum, her seviyeden geliştiriciye hitap ediyor!</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /Program Row &ndash;&gt;-->
+                        <!--&lt;!&ndash; Program Row &ndash;&gt;-->
+                        <!--<div class="program__row" style="opacity: 0.5;">-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>14:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Growing your filesystem*</h4>-->
+                                <!--<small class="program__item__subtitle">Frank de Jonge</small>-->
+                                <!--<p class="program__item__desc">When your application is under heavy load, it'll need to scale. How we handle our filesystem is a necessary step in our scaling plan. Let's grow our filesystem understanding as our app goes from 10-100 users to thousands. We'll start small, scale out, and see which hurdles we need to tackle along the way.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>15:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">PHP ile Soket Programlama ve Ağ Servisleri</h4>-->
+                                <!--<small class="program__item__subtitle">Hidayet Doğan</small>-->
+                                <!--<p class="program__item__desc">PHP ile soket programlama nasıl yapılır, ağ servisleri nasıl oluşturulabilir, günümüzde adını sıkça duyduğumuz WebSocket ve gerçek zamanlı web uygulamalarını PHP ile nasıl geliştirebiliriz gibi soruların yanıtlarını alıp, bunlar için geliştirilen kütüphane ve eklentileri tanıyacağız.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /Program Row &ndash;&gt;-->
+                        <!--&lt;!&ndash; Program Row &ndash;&gt;-->
+                        <!--<div class="program__row" style="opacity: 0.5;">-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>16:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">HHVM, PHP7 & co*</h4>-->
+                                <!--<small class="program__item__subtitle">Pierre Joye</small>-->
+                                <!--<p class="program__item__desc">PHP 7 is on track, 1st test releases are out, everyone work hard to get the next php major version out. Dozen of patches have reached the branch,amazing RFCs have been worked on and commited. Are you ready to migrate? Hopefully yes! If not and you still need to improve performances, then let take a look at the alternatives. Be full stack alternative PHP implementations like php or small additions to speedup the critical parts of your apps.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>17:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Kaya Gibi Sağlam Yazılım Projelerine İmza Atmanın 5 Prensibi</h4>-->
+                                <!--<small class="program__item__subtitle">İbrahim Gündüz</small>-->
+                                <!--<p class="program__item__desc">Geliştiriciler arasında her bir prensibin baş harfinin birleşiminden oluşan SOLID kelimesi ile anılan nesnel programlama ve tasarım prensiplerinin gerçek hayat örnekleri ile anlatıldığı keyifli bir sunum sizleri bekliyor.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>18:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Teknik Sohbet</h4>-->
+                                <!--<small class="program__item__subtitle">Hakkı Öcal, Uğur Aydoğdu</small>-->
+                                <!--<p class="program__item__desc"></p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /Program Row &ndash;&gt;-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<hr />-->
+            <!--<div class="container">-->
+                <!--<section class="col-lg-5 gap-bottom-tablet-h">-->
+                    <!--<h3 class="gap-bottom-medium">{{ 'DAY_2' | translate }}</h3>-->
+                    <!--<p class="gap-bottom-medium">{{ 'DAY_2_DESC' | translate }}-->
+                    <!--</p>-->
+                    <!--<a class="button button&#45;&#45;primary" href="http://istanbulphp.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>-->
+                <!--</section>-->
+                <!--<div class="col-lg-7">-->
+                    <!--<div class="program">-->
+                        <!--<div style="text-align: center; font-weight: bold;">-->
+                            <!--<p>We haven't finished multi-track schedule yet. You can see up-to-date schedule is <a target="_blank" href="https://docs.google.com/document/d/19a1VZ-rfjiGgqGsKzMEXS_UFkbstjvQgZoj32mvQZpI/edit">here!</a></p>-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; Program Row &ndash;&gt;-->
+                        <!--<div class="program__row" style="opacity: 0.5;">-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>9:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Keynote: Uzun soluklu projelerde kod yönetimi, sorular ve kararlar</h4>-->
+                                <!--<small class="program__item__subtitle">Mert Hürtürk</small>-->
+                                <!--<p class="program__item__desc">Bu sunumda 1 yıldan fazla süredir ayakta duran, daha da durması planlanan ve üzerinde devamlı geliştirmeler yapılan yazılım projelerinde karşılaşılan problemler, sürdürülebilirlik ve stratejiler üzerine bilgi ve tecrübelerin paylaşılacaktır.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>10:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">What to Expect When You're Expecting: PHP 7*</h4>-->
+                                <!--<small class="program__item__subtitle">Davey Shafik</small>-->
+                                <!--<p class="program__item__desc">PHP 7 is coming, and with it will come new features, backwards compatibility breaks, and huge performance gains. This talk will get you prepared for all the changes in this upcoming release and offer practical advice you can implement now to ensure you code still works come upgrade time.-->
+                                <!--</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>11:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">PhpStorm: 42 Tips and Tricks*</h4>-->
+                                <!--<small class="program__item__subtitle">Mikhail Vink</small>-->
+                                <!--<p class="program__item__desc">With the PhpStorm IDE buzzing in modern PHP community, there are always many neat things to learn for better synergy with your every-day tool for web development. This session will give you an insight on 42 powerful tips and tricks that will make you more productive and efficient. From lightning-smart navigation to debugging and testing hidden tricks, from making UI of the IDE even more suitable for presentations to some handy tools integrations - all of those tips will find a good use in your development workflow.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /Program Row &ndash;&gt;-->
+                        <!--&lt;!&ndash; Program Row &ndash;&gt;-->
+                        <!--<div class="program__row" style="opacity: 0.5;">-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>12:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Beyond Testing*</h4>-->
+                                <!--<small class="program__item__subtitle">Michael Bodnarchuk</small>-->
+                                <!--<p class="program__item__desc">Yes, you know, you should have written that test! But what If you already do writing tests, but you don't see the result of your actions. Tests run slow, they are fragile, hard to read and maintain. Fixing a test is harder than disabling it. Don't blame yourself. It's not about you, it's about some points you should have taken into account while your testing codebase grew. In this talk I will tell you about: What are best practices for tests (with code samples), Should you follow TDD or not, What are acceptance || functional || unit tests, Do we need acceptance tests and what framework to choose: Behat, Codeception, Selenium, PhantomJS, How to test untestable code, How data should be managed (Fixtures, FactoryMuffin), Creating isolated test environments with Docker, Parallel testing with Docker.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>14:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">PHP Uygulamalarınızı Güçlendirin</h4>-->
+                                <!--<small class="program__item__subtitle">Muhittin Özer</small>-->
+                                <!--<p class="program__item__desc">Arama motoru, kuyruklama ve cache teknolojileri ile PHP uygulamalarına nasıl güç katılabileceğinin anlatılacağı bu oturumda bahsedilen teknolojilerin öne çıkanları hakkında genel bir bilgilendirme yapılacaktır.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>15:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">MySQL kullanıcıları için PostgreSQL'in avantajları</h4>-->
+                                <!--<small class="program__item__subtitle">Devrim Gündüz</small>-->
+                                <!--<p class="program__item__desc"></p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /Program Row &ndash;&gt;-->
+                        <!--&lt;!&ndash; Program Row &ndash;&gt;-->
+                        <!--<div class="program__row" style="opacity: 0.5;">-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>17:00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Arayüz Geliştirmede Flux Mimarisi</h4>-->
+                                <!--<small class="program__item__subtitle">Fatih Kadir Akın</small>-->
+                                <!--<p class="program__item__desc">Flux, Facebook tarafından geliştirilen MVC alternatifi bir tasarım şablonudur. Bu tasarım şablonu, veri güdümlü işlemesi sayesinde arayüzlerin daha kararlı olmasını sağlar. Bu konuşmada bu yapının MVC’den farkını, arayüzleri daha kararlı nasıl yapabildiğini, faydalarını ve mevcut yapılara entegrasyonunu anlatacağız.</p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                            <!--&lt;!&ndash; Program Item &ndash;&gt;-->
+                            <!--<div class="program__item">-->
+                                <!--<div class="program__item__time">-->
+                                    <!--<time>18.00</time>-->
+                                <!--</div>-->
+                                <!--<h4 class="program__item__title">Kadın Yazılımcı</h4>-->
+                                <!--<small class="program__item__subtitle">Nesrin Kalender, Meryem Alay, Şirin Saygılı</small>-->
+                                <!--<p class="program__item__desc"></p>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /Program Item &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /Program Row &ndash;&gt;-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
 
     <section class="container text-center pad-vertical-large">
@@ -647,30 +1189,30 @@
             <hr class="hyphen">
             <p class="gap-bottom-large" translate="{{ 'SPONSORS_DESC' }}"></p> 
             <h6 class="gap-top-large-mobile-h">{{ 'HONOR' | translate }}</h6>
-            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img width="200px" src="img/sponsors/bau-io.png" alt="BAUio"></a>
-            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img width="200px" src="img/sponsors/bau.png" alt="Bahçeşehir University"></a>
+            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img class="gap-bottom" width="200px" src="img/sponsors/bau-io.png" alt="BAUio"></a>
+            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img  class="gap-bottom" width="200px" src="img/sponsors/bau.png" alt="Bahçeşehir University"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'GOLD_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="http://projectz.com/" ><img width="200px" src="img/sponsors/projectz.png" alt="Projectz"></a>
-            <a target="_blank" href="https://sendloop.com/" ><img width="200px" src="img/sponsors/sendloop.png" alt="Sendloop"></a>
-            <a target="_blank" href="http://eticaret.com/" ><img width="200px" src="img/sponsors/ideasoft.png" alt="ideasoft"></a><br/>
-            <a target="_blank" href="http://radore.com/" ><img src="img/sponsors/radore.png" alt="Radore"></a>
-            <a target="_blank" href="http://www.atolye15.com/" ><img src="img/sponsors/atolye15.png" alt="Atölye15"></a>
+            <a target="_blank" href="http://projectz.com/" ><img class="gap-bottom" width="200px" src="img/sponsors/projectz.png" alt="Projectz"></a>
+            <a target="_blank" href="https://sendloop.com/" ><img class="gap-bottom" width="200px" src="img/sponsors/sendloop.png" alt="Sendloop"></a>
+            <a target="_blank" href="http://eticaret.com/" ><img class="gap-bottom" width="200px" src="img/sponsors/ideasoft.png" alt="ideasoft"></a><br/>
+            <a target="_blank" href="http://radore.com/" ><img class="gap-bottom" src="img/sponsors/radore.png" alt="Radore"></a>
+            <a target="_blank" href="http://www.atolye15.com/" ><img class="gap-bottom" src="img/sponsors/atolye15.png" alt="Atölye15"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'SILVER_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="http://engineyard.com/" ><img src="img/sponsors/engineyard.png" alt="EngineYard"></a>
-            <a target="_blank" href="http://jetbrains.com/" ><img src="img/sponsors/jetbrains.png" alt="JetBrains"></a>
-            <a target="_blank" href="http://www.pozitim.com/tr/" ><img src="img/sponsors/pozitim.png" alt="Pozitim"></a><br/>
-            <a target="_blank" href="https://www.bulutfon.com/" ><img src="img/sponsors/bulutfon.png" alt="Bulutfon"></a>
-            <a target="_blank" href="http://lab2023.com/" ><img src="img/sponsors/lab2023.png" alt="Lab2023"></a>
+            <a target="_blank" href="http://engineyard.com/" ><img class="gap-bottom" src="img/sponsors/engineyard.png" alt="EngineYard"></a>
+            <a target="_blank" href="http://jetbrains.com/" ><img class="gap-bottom" src="img/sponsors/jetbrains.png" alt="JetBrains"></a>
+            <a target="_blank" href="http://www.pozitim.com/tr/" ><img class="gap-bottom" src="img/sponsors/pozitim.png" alt="Pozitim"></a><br/>
+            <a target="_blank" href="https://www.bulutfon.com/" ><img  class="gap-bottom" src="img/sponsors/bulutfon.png" alt="Bulutfon"></a>
+            <a target="_blank" href="http://lab2023.com/" ><img class="gap-bottom" src="img/sponsors/lab2023.png" alt="Lab2023"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'BRONZE_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="https://motaword.com/" ><img src="img/sponsors/motaword.png" alt="MotaWord"></a><br/>
-            <a target="_blank" href="http://epigra.com/" ><img src="img/sponsors/epigra.png" alt="Epigra"></a>
+            <a target="_blank" href="https://motaword.com/" ><img class="gap-bottom" src="img/sponsors/motaword.png" alt="MotaWord"></a><br/>
+            <a target="_blank" href="http://epigra.com/" ><img class="gap-bottom" src="img/sponsors/epigra.png" alt="Epigra"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'MEDIA_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="http://webrazzi.com/" ><img src="img/sponsors/webrazzi.png" alt="Webrazzi"></a>
+            <a target="_blank" href="http://webrazzi.com/" ><img class="gap-bottom" src="img/sponsors/webrazzi.png" alt="Webrazzi"></a>
             <h6 class="gap-top-large-mobile-h">Konaklama Sponsoru</h6>
-            <a target="_blank" href="http://sirkecimansion.com/"><img src="img/sponsors/sirkeci-mansion-hotel.png" alt="Sirkeci Mansion Hotel"></a>
+            <a target="_blank" href="http://sirkecimansion.com/"><img class="gap-bottom" src="img/sponsors/sirkeci-mansion-hotel.png" alt="Sirkeci Mansion Hotel"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'OPEN_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="https://github.com/" ><img width="150px" src="img/sponsors/github.png" alt="GitHub"></a>
-            <a target="_blank" href="https://www.hizlikirala.com" ><img width="150px" src="img/sponsors/hizlikirala.png" alt="Hizlikiralazli"></a>
+            <a target="_blank" href="https://github.com/" ><img class="gap-bottom" width="150px" src="img/sponsors/github.png" alt="GitHub"></a>
+            <a target="_blank" href="https://www.hizlikirala.com" ><img class="gap-bottom" width="150px" src="img/sponsors/hizlikirala.png" alt="Hizlikiralazli"></a>
         </div>
     </div>
     <div class="pad-vertical-large container">
@@ -737,7 +1279,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-static-files/2.6.1/angular-translate-loader-static-files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.4.0/js/ngDialog.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.min.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/zozo-tabs/zozo.tabs.js"></script>
     <script src="js/app.js"></script>
     <script src="js/vendors.js"></script>
 
