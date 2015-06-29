@@ -203,6 +203,12 @@
             "bio": "<p>My name is Midori. I am a world citizen, Computer Scientist & Engineer, and php and cakephp Expert. I really like jQuery too. I code PHP and web applications since dial-up years (2001). I like to contribute and create open source software projects. You can check them at: (http://www.github.com/mtkocak) I am always willing to learn new things even though I have 13 years of experience. I also design as a hobby. (http://www.behance.net/mtkocak) Other than coding and design, I like music, play guitar and drums, singing in choirs since I was 7. I believe in science and I am a woman who believes in equal oportunity for everyone. So I help women, lgbt people and students free of charge.</p>",
             "works": "-",
             "image": "img/speakers/midori-kocak.jpg"
+        },
+        "erikli": {
+            "name": "Fatih Erikli",
+            "bio": "<p>Fatih Erikli Python ve JavaScript geliştiricisi. Arguman.org’un kurucusu.</p>",
+            "works": "Gezi.com",
+            "image": "img/speakers/fatih-erikli.jpg"
         }
     }
 }
