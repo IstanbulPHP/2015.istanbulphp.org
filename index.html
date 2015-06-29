@@ -70,24 +70,24 @@
                     <div class="row gap-bottom">
                         <div class="col-sm-4 gap-bottom-mobile-h">
                             <figure class="thumb thumb--primary">
-                                <img src="img/2014/6.jpg" alt="" class="thumb__img">
+                                <img data-src="img/2014/6.jpg" alt="" class="thumb__img">
                             </figure>
                         </div>
                         <div class="col-sm-8">
                             <figure class="thumb thumb--primary">
-                                <img src="img/2014/2.jpg" alt="" class="thumb__img">
+                                <img data-src="img/2014/2.jpg" alt="" class="thumb__img">
                             </figure>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6 gap-bottom-mobile-h">
                             <figure class="thumb thumb--primary">
-                                <img src="img/2014/3.jpg" alt="" class="thumb__img">
+                                <img data-src="img/2014/3.jpg" alt="" class="thumb__img">
                             </figure>
                         </div>
                         <div class="col-sm-6">
                             <figure class="thumb thumb--primary">
-                                <img src="img/2014/1.jpg" alt="" class="thumb__img">
+                                <img data-src="img/2014/1.jpg" alt="" class="thumb__img">
                             </figure>
                         </div>
                     </div>
@@ -98,12 +98,11 @@
     <div id="speakers" class="container text-center pad-vertical-large">
         <h3 class="clear-gap-top">{{ 'SPEAKERS' | translate }}</h3>
         <hr class="hyphen">
-        <p translate="{{ 'SPEAKERS_DESC' }}"></p> 
         <div class="honeycomb-wrapper">
             <div class="honeycomb-layout">
                 <div class="honeycomb-line">
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/cal-evans.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/cal-evans.jpg" alt="">
                         <figcaption class="honeycomb__caption">
                             <a href="" class="honeycomb__link" ng-click='clickToOpen("cal")'>
                                 <div class="honeycomb__text">
@@ -114,76 +113,7 @@
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/jordi-boggiano.jpg" alt="">
-                        <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("jordi")'>
-                                <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Jordi Boggiano</h4>
-                                    <span class="honeycomb__subtitle">Nelmio</span>
-                                </div>
-                            </a>
-                        </figcaption>
-                    </figure>
-                    <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/davey-shafik.jpg" alt="">
-                        <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("davey")'>
-                                <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Davey Shafik</h4>
-                                    <span class="honeycomb__subtitle">Engine Yard</span>
-                                </div>
-                            </a>
-                        </figcaption>
-                    </figure>
-                    <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/pierre-joye.jpg" alt="">
-                        <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("pierre")'>
-                                <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Pierre Joye</h4>
-                                    <span class="honeycomb__subtitle">Microsoft</span>
-                                </div>
-                            </a>
-                        </figcaption>
-                    </figure>
-                    <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/frank-de-jonge.jpg" alt="">
-                        <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("frank")'>
-                                <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Frank de Jonge</h4>
-                                    <span class="honeycomb__subtitle">The PHP League</span>
-                                </div>
-                            </a>
-                        </figcaption>
-                    </figure>
-                    <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/mikhail-vink.jpg" alt="">
-                        <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("mikhail")'>
-                                <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Mikhail Vink</h4>
-                                    <span class="honeycomb__subtitle">JetBrains</span>
-                                </div>
-                            </a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="honeycomb-line">
-
-                    <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/devrim-gunduz.jpg" alt="">
-                        <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("devrim")'>
-                                <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Devrim Gündüz</h4>
-                                    <span class="honeycomb__subtitle">EnterpriseDB</span>
-                                </div>
-                            </a>
-                        </figcaption>
-                    </figure>
-                    <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/mert-hurturk.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/mert-hurturk.jpg" alt="">
                         <figcaption class="honeycomb__caption">
                             <a href="" class="honeycomb__link" ng-click='clickToOpen("mert")'>
                                 <div class="honeycomb__text">
@@ -194,67 +124,117 @@
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/emir-karsiyakali.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/bernhard-schussek.jpg" alt="">
                         <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("emir")'>
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("bernhard")'>
                                 <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Emir Karşıyakalı</h4>
-                                    <span class="honeycomb__subtitle">Sendloop</span>
+                                    <h4 class="honeycomb__title">Bernhard Schussek</h4>
+                                    <span class="honeycomb__subtitle">Symfony2</span>
                                 </div>
                             </a>
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/hakki-ocal.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/davey-shafik.jpg" alt="">
                         <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("hakki")'>
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("davey")'>
                                 <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Hakkı Öcal</h4>
-                                    <span class="honeycomb__subtitle">Bahçeşehir University</span>
+                                    <h4 class="honeycomb__title">Davey Shafik</h4>
+                                    <span class="honeycomb__subtitle">Engine Yard</span>
                                 </div>
                             </a>
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/muhittin-ozer.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/frank-de-jonge.jpg" alt="">
                         <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("muhittin")'>
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("frank")'>
                                 <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Muhittin<br/>Özer</h4>
-                                    <span class="honeycomb__subtitle">Atölye15</span>
+                                    <h4 class="honeycomb__title">Frank de Jonge</h4>
+                                    <span class="honeycomb__subtitle">The PHP League</span>
                                 </div>
                             </a>
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/levent-ogut.png" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/hugo-hamon.jpg" alt="">
                         <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("levent")'>
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("hugo")'>
                                 <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Levent Öğüt</h4>
-                                    <span class="honeycomb__subtitle">Sendloop</span>
+                                    <h4 class="honeycomb__title">Hugo<br/>Hamon</h4>
+                                    <span class="honeycomb__subtitle">SensioLabs</span>
                                 </div>
                             </a>
                         </figcaption>
                     </figure>
-                </div>
-                <div class="honeycomb-line">
-
-                    <!-- <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/blank.jpg" alt="">
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/jordi-boggiano.jpg" alt="">
                         <figcaption class="honeycomb__caption">
-                            <a target="_blank" href="https://docs.google.com/forms/d/1aUBfZItIEHEcmI-d_Es1KwYJQdL4u0WFfiopr4R8E3M/viewform" class="honeycomb__link">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("jordi")'>
                                 <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">CFP</h4>
-                                    <span class="honeycomb__subtitle"> Interested in speaking? Submit your proposal now!</span>
+                                    <h4 class="honeycomb__title">Jordi Boggiano</h4>
+                                    <span class="honeycomb__subtitle">Nelmio</span>
                                 </div>
                             </a>
                         </figcaption>
-                    </figure> -->
-                </div>
-                <div class="honeycomb-line">
+                    </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/akin-moroglu.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/marco-pivetta.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("marco")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Marco<br/>Pivetta</h4>
+                                    <span class="honeycomb__subtitle">Doctrine Project</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/michael-bodnarchuk.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("michael")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Michael<br/>Bodnarchuk</h4>
+                                    <span class="honeycomb__subtitle">CodeCeption Testing Framework</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/mikhail-vink.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("mikhail")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Mikhail Vink</h4>
+                                    <span class="honeycomb__subtitle">JetBrains</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/paul-dragoonis.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("paul")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Paul Dragoonis</h4>
+                                    <span class="honeycomb__subtitle">PHP-Fig</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/pierre-joye.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("pierre")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Pierre Joye</h4>
+                                    <span class="honeycomb__subtitle">Microsoft</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/akin-moroglu.jpg" alt="">
                         <figcaption class="honeycomb__caption">
                             <a href="" class="honeycomb__link" ng-click='clickToOpen("akin")'>
                                 <div class="honeycomb__text">
@@ -265,7 +245,73 @@
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/hidayet-dogan.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/berat-dogan.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("berat")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Berat Doğan</h4>
+                                    <span class="honeycomb__subtitle">MetGlobal</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/bora-yalcin.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("bora")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Bora Yalçın</h4>
+                                    <span class="honeycomb__subtitle">Dion Adworks</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/devrim-gunduz.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("devrim")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Devrim Gündüz</h4>
+                                    <span class="honeycomb__subtitle">EnterpriseDB</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/emir-karsiyakali.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("emir")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Emir Karşıyakalı</h4>
+                                    <span class="honeycomb__subtitle">İstanbul PHP</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/emre-yilmaz.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("emre")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Emre Yılmaz</h4>
+                                    <span class="honeycomb__subtitle">Volt</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/fatih-kadir-akin.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("fatih")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Fatih Kadir Akın</h4>
+                                    <span class="honeycomb__subtitle"></span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/hidayet-dogan.jpg" alt="">
                         <figcaption class="honeycomb__caption">
                             <a href="" class="honeycomb__link" ng-click='clickToOpen("hidayet")'>
                                 <div class="honeycomb__text">
@@ -276,29 +322,18 @@
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/nesrin-kalender.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/huseyin-mert.jpg" alt="">
                         <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("nesrin")'>
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("huseyin")'>
                                 <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Nesrin Kalender</h4>
-                                    <span class="honeycomb__subtitle">Nomad Commerce</span>
+                                    <h4 class="honeycomb__title">Hüseyin Mert</h4>
+                                    <span class="honeycomb__subtitle">OkulBilişim</span>
                                 </div>
                             </a>
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/sirin-saygili.jpg" alt="">
-                        <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("sirin")'>
-                                <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Şirin Saygılı</h4>
-                                    <span class="honeycomb__subtitle">Prisync</span>
-                                </div>
-                            </a>
-                        </figcaption>
-                    </figure>
-                    <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/ibrahim-gunduz.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/ibrahim-gunduz.jpg" alt="">
                         <figcaption class="honeycomb__caption">
                             <a href="" class="honeycomb__link" ng-click='clickToOpen("ibrahim")'>
                                 <div class="honeycomb__text">
@@ -309,21 +344,51 @@
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/meryem-alay.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/midori-kocak.jpg" alt="">
                         <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("meryem")'>
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("midori")'>
                                 <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Meryem Alay</h4>
-                                    <span class="honeycomb__subtitle">SoftTech</span>
+                                    <h4 class="honeycomb__title">Midori Koçak</h4>
+                                    <span class="honeycomb__subtitle">-</span>
                                 </div>
                             </a>
                         </figcaption>
                     </figure>
-                </div>
-                <div class="honeycomb-line">
-
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/oytun-tez.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/muhittin-ozer.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("muhittin")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Muhittin<br/>Özer</h4>
+                                    <span class="honeycomb__subtitle">Atölye15</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/mustafa-kutsal-ay.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("mustafa")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Mustafa Kutsal Ay</h4>
+                                    <span class="honeycomb__subtitle">Symbie</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/osman-ungur.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("osman")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Osman Üngür</h4>
+                                    <span class="honeycomb__subtitle">Tasit.com</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/oytun-tez.jpg" alt="">
                         <figcaption class="honeycomb__caption">
                             <a href="" class="honeycomb__link" ng-click='clickToOpen("oytun")'>
                                 <div class="honeycomb__text">
@@ -334,12 +399,67 @@
                         </figcaption>
                     </figure>
                     <figure class="honeycomb" href="">
-                        <img class="honeycomb__img" src="img/speakers/fatih-kadir-akin.jpg" alt="">
+                        <img class="honeycomb__img" data-src="img/speakers/ugur-ozyilmazel.jpg" alt="">
                         <figcaption class="honeycomb__caption">
-                            <a href="" class="honeycomb__link" ng-click='clickToOpen("fatih")'>
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("ugur")'>
                                 <div class="honeycomb__text">
-                                    <h4 class="honeycomb__title">Fatih Kadir Akın</h4>
-                                    <span class="honeycomb__subtitle"></span>
+                                    <h4 class="honeycomb__title">Uğur Özyılmazel</h4>
+                                    <span class="honeycomb__subtitle">webBox</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/meryem-alay.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("meryem")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Meryem Alay</h4>
+                                    <span class="honeycomb__subtitle">SoftTech</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/nesrin-kalender.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("nesrin")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Nesrin Kalender</h4>
+                                    <span class="honeycomb__subtitle">Nomad Commerce</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/sirin-saygili.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("sirin")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Şirin Saygılı</h4>
+                                    <span class="honeycomb__subtitle">Prisync</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/hakki-ocal.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("hakki")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Hakkı Öcal</h4>
+                                    <span class="honeycomb__subtitle">Bahçeşehir University</span>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="honeycomb" href="">
+                        <img class="honeycomb__img" data-src="img/speakers/ugur-aydogdu.jpg" alt="">
+                        <figcaption class="honeycomb__caption">
+                            <a href="" class="honeycomb__link" ng-click='clickToOpen("aydogdu")'>
+                                <div class="honeycomb__text">
+                                    <h4 class="honeycomb__title">Uğur Aydoğdu</h4>
+                                    <span class="honeycomb__subtitle">Epigra</span>
                                 </div>
                             </a>
                         </figcaption>
@@ -448,8 +568,15 @@
                                                 hitap ediyor!</p>
 
                                         </td>
-                                        <td>Akın Moroğlu</td>
+                                        <td>
 
+                                            <h6>Her beyin bir sermaye peki yatırımcısı kim?</h6><span>Akın Moroğlu</span>
+
+                                            <p>
+                                                Teknoloji sektörünün en pahalı enstrümanı "developer"ın gelişim süreci, motivasyonu ve vizyonu neyle beslenir?
+                                            </p>
+
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>12:00</td>
@@ -502,7 +629,7 @@
                                             <h6>Advanced Monitoring</h6>
                                             <span>Mustafa Kutsal Ay</span>
 
-                                            <p>-</p>
+                                            <p>Her sistemin, kaynak yönetimi ve darboğaz analizi olarak iki temel konusu vardır. İzleyemediğiniz ve raporlayamadığınız bir sistem size ait bir sistem değildir. Bu sunumda temel monitoring kavramları üzerinde durulacak ve örneklerle olası senaryolar anlatılacaktır.</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -587,7 +714,7 @@
                                         </td>
                                         <td>
                                             <h6>WP REST API sonrası WordPress ekosistemi ve kullanım alanları</h6>
-                                            <span>? ?</span>
+                                            <span>Bora Yalçın</span>
 
                                             <p>
                                                 Sunumda, yaklaşık iki yıldır geliştirilen ve WordPress core yapısına
@@ -784,11 +911,11 @@
                                     <tr>
                                         <td>15:00</td>
                                         <td>
-                                            <h6>MySQL kullanıcıları için PostgreSQL'in avantajları
-                                            </h6><span>Devrim Gündüz</span>
+                                            <h6>A complex ORM... faster than SQL?
+                                            </h6><span>Marco Pivetta</span>
 
                                             <p>
-                                                --
+                                                Complex applications are never easy to build and maintain; add performance to the mix and you will have a huge problem! What if we could get very fast applications without sacrificing good abstraction? We will focus on the hazards affecting PHP OLTP application performance, and on particular features of Doctrine ORM that will improve it. Also, we will try and see how we can reverse-engineer these features to build robust, scalable and clean software.
                                             </p>
 
                                         </td>
@@ -824,6 +951,38 @@
 
                                         </td>
                                         <td>
+                                            <h6>MySQL kullanıcıları için PostgreSQL'in avantajları
+                                            </h6><span>Devrim Gündüz</span>
+
+                                            <p>
+                                                --
+                                            </p>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:00</td>
+                                        <td>
+                                            <h6>Pratik Redis
+                                            </h6><span>Emre Yılmaz</span>
+
+                                            <p>
+                                                Redis, son yıllarda kendisini endüstri standartı olarak kanıtlamış bir in-memory veritabanıdır. Redis'in pratik kullanım alanlarından, çalışma senaryolarına uygulamalı bir şekilde değineceğiz.
+                                            </p>
+
+                                        </td>
+                                        <td>
+                                            <h6>-</h6>
+                                            <span>-</span>
+
+                                            <p>
+                                                -
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00</td>
+                                        <td>
                                             <h6>Yazılım Geliştirme Süreçleri ve Agile Kültürü
                                             </h6>
                                             <span>Emrah Işıklı</span>
@@ -834,21 +993,6 @@
 
 
                                             </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>17:00</td>
-                                        <td>
-                                            <h6>Pratik Redis</h6><span>Emre Yılmaz</span>
-
-                                            <p>
-                                                Redis, son yıllarda kendisini endüstri standartı olarak kanıtlamış bir
-                                                in-memory veritabanıdır. Redis'in pratik kullanım alanlarından, çalışma
-                                                senaryolarına uygulamalı bir şekilde değineceğiz.
-
-
-                                            </p>
-
                                         </td>
                                         <td>
                                             <h6>Arayüz Geliştirmede Flux Mimarisi
@@ -867,7 +1011,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>18:00</td>
+                                        <td>19:00</td>
                                         <td class="text-center" colspan="2">
                                             <h6>Kadın Yazılımcı
                                             </h6><span>Nesrin Kalender, Şirin Saygılı, Meryem Alay</span>
@@ -1170,7 +1314,7 @@
         <div class="clearfix pad-top">
             <!-- Thumb Hotel -->
             <figure class="thumb thumb--hotel gap-bottom-mobile-h">
-                <img src="img/hotels/5.jpg" alt="" class="thumb__img">
+                <img data-src="img/hotels/5.jpg" alt="" class="thumb__img">
                 <figcaption class="thumb__caption">
                     <a target="_blank" class="thumb__link" href="http://sirkecimansion.com/">
                         <div class="vertical-center">
@@ -1189,30 +1333,30 @@
             <hr class="hyphen">
             <p class="gap-bottom-large" translate="{{ 'SPONSORS_DESC' }}"></p> 
             <h6 class="gap-top-large-mobile-h">{{ 'HONOR' | translate }}</h6>
-            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img class="gap-bottom" width="200px" src="img/sponsors/bau-io.png" alt="BAUio"></a>
-            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img  class="gap-bottom" width="200px" src="img/sponsors/bau.png" alt="Bahçeşehir University"></a>
+            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img class="gap-bottom" width="200px" data-src="img/sponsors/bau-io.png" alt="BAUio"></a>
+            <a target="_blank" href="http://bahcesehir.edu.tr/" ><img  class="gap-bottom" width="200px" data-src="img/sponsors/bau.png" alt="Bahçeşehir University"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'GOLD_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="http://projectz.com/" ><img class="gap-bottom" width="200px" src="img/sponsors/projectz.png" alt="Projectz"></a>
-            <a target="_blank" href="https://sendloop.com/" ><img class="gap-bottom" width="200px" src="img/sponsors/sendloop.png" alt="Sendloop"></a>
-            <a target="_blank" href="http://eticaret.com/" ><img class="gap-bottom" width="200px" src="img/sponsors/ideasoft.png" alt="ideasoft"></a><br/>
-            <a target="_blank" href="http://radore.com/" ><img class="gap-bottom" src="img/sponsors/radore.png" alt="Radore"></a>
-            <a target="_blank" href="http://www.atolye15.com/" ><img class="gap-bottom" src="img/sponsors/atolye15.png" alt="Atölye15"></a>
+            <a target="_blank" href="http://projectz.com/" ><img class="gap-bottom" width="200px" data-src="img/sponsors/projectz.png" alt="Projectz"></a>
+            <a target="_blank" href="https://sendloop.com/" ><img class="gap-bottom" width="200px" data-src="img/sponsors/sendloop.png" alt="Sendloop"></a>
+            <a target="_blank" href="http://eticaret.com/" ><img class="gap-bottom" width="200px" data-src="img/sponsors/ideasoft.png" alt="ideasoft"></a><br/>
+            <a target="_blank" href="http://radore.com/" ><img class="gap-bottom" data-src="img/sponsors/radore.png" alt="Radore"></a>
+            <a target="_blank" href="http://www.atolye15.com/" ><img class="gap-bottom" data-src="img/sponsors/atolye15.png" alt="Atölye15"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'SILVER_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="http://engineyard.com/" ><img class="gap-bottom" src="img/sponsors/engineyard.png" alt="EngineYard"></a>
-            <a target="_blank" href="http://jetbrains.com/" ><img class="gap-bottom" src="img/sponsors/jetbrains.png" alt="JetBrains"></a>
-            <a target="_blank" href="http://www.pozitim.com/tr/" ><img class="gap-bottom" src="img/sponsors/pozitim.png" alt="Pozitim"></a><br/>
-            <a target="_blank" href="https://www.bulutfon.com/" ><img  class="gap-bottom" src="img/sponsors/bulutfon.png" alt="Bulutfon"></a>
-            <a target="_blank" href="http://lab2023.com/" ><img class="gap-bottom" src="img/sponsors/lab2023.png" alt="Lab2023"></a>
+            <a target="_blank" href="http://engineyard.com/" ><img class="gap-bottom" data-src="img/sponsors/engineyard.png" alt="EngineYard"></a>
+            <a target="_blank" href="http://jetbrains.com/" ><img class="gap-bottom" data-src="img/sponsors/jetbrains.png" alt="JetBrains"></a>
+            <a target="_blank" href="http://www.pozitim.com/tr/" ><img class="gap-bottom" data-src="img/sponsors/pozitim.png" alt="Pozitim"></a><br/>
+            <a target="_blank" href="https://www.bulutfon.com/" ><img  class="gap-bottom" data-src="img/sponsors/bulutfon.png" alt="Bulutfon"></a>
+            <a target="_blank" href="http://lab2023.com/" ><img class="gap-bottom" data-src="img/sponsors/lab2023.png" alt="Lab2023"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'BRONZE_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="https://motaword.com/" ><img class="gap-bottom" src="img/sponsors/motaword.png" alt="MotaWord"></a><br/>
-            <a target="_blank" href="http://epigra.com/" ><img class="gap-bottom" src="img/sponsors/epigra.png" alt="Epigra"></a>
+            <a target="_blank" href="https://motaword.com/" ><img class="gap-bottom" data-src="img/sponsors/motaword.png" alt="MotaWord"></a><br/>
+            <a target="_blank" href="http://epigra.com/" ><img class="gap-bottom" data-src="img/sponsors/epigra.png" alt="Epigra"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'MEDIA_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="http://webrazzi.com/" ><img class="gap-bottom" src="img/sponsors/webrazzi.png" alt="Webrazzi"></a>
+            <a target="_blank" href="http://webrazzi.com/" ><img class="gap-bottom" data-src="img/sponsors/webrazzi.png" alt="Webrazzi"></a>
             <h6 class="gap-top-large-mobile-h">Konaklama Sponsoru</h6>
-            <a target="_blank" href="http://sirkecimansion.com/"><img class="gap-bottom" src="img/sponsors/sirkeci-mansion-hotel.png" alt="Sirkeci Mansion Hotel"></a>
+            <a target="_blank" href="http://sirkecimansion.com/"><img class="gap-bottom" data-src="img/sponsors/sirkeci-mansion-hotel.png" alt="Sirkeci Mansion Hotel"></a>
             <h6 class="gap-top-large-mobile-h">{{ 'OPEN_SPONSORS' | translate }}</h6>
-            <a target="_blank" href="https://github.com/" ><img class="gap-bottom" width="150px" src="img/sponsors/github.png" alt="GitHub"></a>
-            <a target="_blank" href="https://www.hizlikirala.com" ><img class="gap-bottom" width="150px" src="img/sponsors/hizlikirala.png" alt="Hizlikiralazli"></a>
+            <a target="_blank" href="https://github.com/" ><img class="gap-bottom" width="150px" data-src="img/sponsors/github.png" alt="GitHub"></a>
+            <a target="_blank" href="https://www.hizlikirala.com" ><img class="gap-bottom" width="150px" data-src="img/sponsors/hizlikirala.png" alt="Hizlikiralazli"></a>
         </div>
     </div>
     <div class="pad-vertical-large container">
@@ -1250,21 +1394,21 @@
             <hr class="hyphen">
             <div class="crew-person gap-bottom-mobile-h">
                 <figure class="thumb thumb--crew">
-                    <img class="thumb__img" src="img/speakers/emir-karsiyakali.jpg" alt="">
+                    <img class="thumb__img" data-src="img/speakers/emir-karsiyakali.jpg" alt="">
                 </figure>
                 <h5 class="crew-person__title">Emir Karşıyakalı</h5>
                 <a target="_blank" href="http://twitter.com/EmirKarsiyakali" class="crew-person__subtitle">@EmirKarsiyakali</a>
             </div>
             <div class="crew-person">
                 <figure class="thumb thumb--crew">
-                    <img class="thumb__img" src="img/crew/osman-yuksel.jpg" alt="">
+                    <img class="thumb__img" data-src="img/crew/osman-yuksel.jpg" alt="">
                 </figure>
                 <h5 class="crew-person__title">Osman Yüksel</h5>
                 <a target="_blank" href="http://twitter.com/yuxel" class="crew-person__subtitle">@yuxel</a>
             </div>
             <div class="crew-person">
                 <figure class="thumb thumb--crew">
-                    <img class="thumb__img" src="img/crew/arda-kilicdagi.jpg" alt="">
+                    <img class="thumb__img" data-src="img/crew/arda-kilicdagi.jpg" alt="">
                 </figure>
                 <h5 class="crew-person__title">Arda Kılıçdağı</h5>
                 <a target="_blank" href="http://twitter.com/ardadev" class="crew-person__subtitle">@ardadev</a>
@@ -1284,6 +1428,7 @@
     <script src="libs/zozo-tabs/zozo.tabs.js"></script>
     <script src="js/app.js"></script>
     <script src="js/vendors.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.0.5/jquery.lazyloadxt.min.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

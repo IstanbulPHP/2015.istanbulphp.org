@@ -33,7 +33,7 @@
         "emir": {
             "name": "Emir Karşıyakalı",
             "bio": "<p>Emir Karşıyakalı is Web Developer with a passion for open-source, community & Laravel. Currently works at Sendloop and UG leader of IstanbulPHP. He is also student at Bahcesehir University.</p>",
-            "works": "Sendloop",
+            "works": "İstanbul PHP",
             "image": "img/speakers/emir-karsiyakali.jpg"
         },
         "hakki": {
@@ -119,6 +119,90 @@
             "bio": "<p>Fatih Kadir AKIN is a JavaScript Developer. He wrote JavaScript for years, before it was cool. Writing books, organizing events about front-end and JavaScript. Organized the first JavaScript Conference in Turkey: Jstanbul. He is a passioned open-source and community supporter. The \"f\" in GitHub.</p>",
             "works": "-",
             "image": "img/speakers/fatih-kadir-akin.jpg"
+        },
+        "bernhard": {
+            "name": "Bernhard Schussek",
+            "bio": "<p>Bernhard - better known as webmozart - is a long-term member of the Symfony core team and lead developer of various Symfony components. He represents Symfony at PHP-FIG and is a passionate proponent of interoperability in the PHP ecosystem. Lately, Bernhard has been developing Puli, a resource management toolkit built on top of Composer.</p>",
+            "works": "Symfony2",
+            "image": "img/speakers/bernhard-schussek.jpg"
+        },
+        "hugo": {
+            "name": "Bernhard Schussek",
+            "bio": "<p>Bernhard - better known as webmozart - is a long-term member of the Symfony core team and lead developer of various Symfony components. He represents Symfony at PHP-FIG and is a passionate proponent of interoperability in the PHP ecosystem. Lately, Bernhard has been developing Puli, a resource management toolkit built on top of Composer.</p>",
+            "works": "Symfony2",
+            "image": "img/speakers/bernhard-schussek.jpg"
+        },
+        "marco": {
+            "name": "Marco Pivetta",
+            "bio": "<p>Marco \"Ocramius\" Pivetta is a software consultant at Roave.With over a decade of experience with PHP, he is part of the Zend Framework CR team, Doctrine core team, and is also active in the community as a mentor and supporter.When not coding for work, he usually hacks together new concepts and open source libraries, or simply provides Q&A on IRC.</p>",
+            "works": "Doctrine Project",
+            "image": "img/speakers/marco-pivetta.jpg"
+        },
+        "michael": {
+            "name": "Michael Bodnarchuk",
+            "bio": "<p>Passionate web developer from Kyiv, Ukraine. I'm lead developer of Codeception testing framework and many other PHP open-source projects.</p>",
+            "works": "CodeCeption",
+            "image": "img/speakers/michael-bodnarchuk.jpg"
+        },
+        "paul": {
+            "name": "Paul Dragoonis",
+            "bio": "<p>Paul, a software consultant from Glasgow, Scotland, is a long-term php community member whom spends his time mentoring fellow PHP'ers, contributing to PHP internals, extensions and the php.net website. He is also the lead developer of PPI Framework, where he focuses on framework interoperability and multi-framework co-operation. Since PPI and PHP-FIG share a common goal, he focuses his time maintaining & participating in the PHP-FIG group.</p>",
+            "works": "PHP-Fig",
+            "image": "img/speakers/paul-dragoonis.jpg"
+        },
+        "berat": {
+            "name": "Berat Doğan",
+            "bio": "<p>Üniversite eğitimine başlamak için sabırsızlanması dışında Metglobal'in yeni ödeme ürünü olan Paytrek'te Yazılım Geliştirici olarak çalışmakta. Teknik her konu dışında basitlik, kişisel gelişim konularına ilgi duyuyor.</p>",
+            "works": "MetGlobal",
+            "image": "img/speakers/berat-dogan.jpg"
+        },
+        "bora": {
+            "name": "Bora Yalçın",
+            "bio": "<p>I am lead developer and partner at Dion Works, digital agency. Full stack web developer, focused mainly on PHP, specifically on WordPress and Laravel. One of the co-founders of official WordPress Budapest community and meetup group. Coffee addict, multiple cat owner.</p>",
+            "works": "Dion Adworks",
+            "image": "img/speakers/bora-yalcin.jpg"
+        },
+        "emre": {
+            "name": "Emre Yılmaz",
+            "bio": "<p>Emre is a long-time python junkie. Author of the stormssh. Involved in development over 10 years. Currently, works at thevoltapp.</p>",
+            "works": "Volt",
+            "image": "img/speakers/emre-yilmaz.jpg"
+        },
+        "huseyin": {
+            "name": "Hüseyin Mert",
+            "bio": "<p>Huseyin's specialty is in building, optimization and scalability of large-scale web applications/portals with huge traffic. He has been working with colleagues at own company OkulBilişim for 2 years.</p>",
+            "works": "OkulBilişim",
+            "image": "img/speakers/huseyin-mert.jpg"
+        },
+        "mustafa": {
+            "name": "Mustafa Kutsal Ay",
+            "bio": "<p>Çeşitli sektörlerde 17 yllık bir deneyimi yazılım ve sistem yönetimi deneyimi olan Mustafa 2010'dan beri Projectz'de olarak çalışmaktadır. İlgi alanları işletim sistemleri, Internet ağları ve dağıtık sistemlerdir.</p>",
+            "works": "Symbie",
+            "image": "img/speakers/mustafa-kutsal-ay.jpg"
+        },     
+        "osman": {
+            "name": "Osman Üngür",
+            "bio": "<p>Osman 10 yıldan fazladır sistem yöneticiliği deneyimi olan bir yazılım geliştiricidir. Daha çok Java ve PHP yazar. Bunun yanında altyapı tasarımı, sistem otomasyonu, deployment ve sistem izleme görevlerinde de yer almaktadır. Temiz, düzgün kurgulanmış, sürdürülebilir, ölçeklendirilebilir mimarilere önem vermektedir.</p>",
+            "works": "Tasit.com",
+            "image": "img/speakers/osman-ungur.jpg"
+        },
+        "ugur": {
+            "name": "Uğur Özyılmazel",
+            "bio": "<p>Alaylı yazılım geliştiricisi</p>",
+            "works": "webBox",
+            "image": "img/speakers/ugur-ozyilmazel.jpg"
+        },
+        "aydogdu": {
+            "name": "Uğur Aydoğdu",
+            "bio": "<p>Yaratıcı girişimci, hayatboyu öğrenci, düşünbaz, startup danışmanı, yazılım mühendisi ve web&mobil yazılım geliştirme UI/UX tasarımı konularında uzmanlaşmış dijital ajans Epigra'nın kurucusu.</p>",
+            "works": "Epigra",
+            "image": "img/speakers/ugur-aydogdu.jpg"
+        },
+        "midori": {
+            "name": "Midori Koçak",
+            "bio": "<p>My name is Midori. I am a world citizen, Computer Scientist & Engineer, and php and cakephp Expert. I really like jQuery too. I code PHP and web applications since dial-up years (2001). I like to contribute and create open source software projects. You can check them at: (http://www.github.com/mtkocak) I am always willing to learn new things even though I have 13 years of experience. I also design as a hobby. (http://www.behance.net/mtkocak) Other than coding and design, I like music, play guitar and drums, singing in choirs since I was 7. I believe in science and I am a woman who believes in equal oportunity for everyone. So I help women, lgbt people and students free of charge.</p>",
+            "works": "-",
+            "image": "img/speakers/midori-kocak.jpg"
         }
     }
 }
