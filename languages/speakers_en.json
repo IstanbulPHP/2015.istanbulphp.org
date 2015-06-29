@@ -58,7 +58,7 @@
             "name": "Devrim Gündüz",
             "bio": "<p>Experienced DBA on PostgreSQL, and experienced on Linux Server Administration. Focused on Red Hat and Fedora, but also administer Debian.</p>",
             "works": "EnterpriseDB",
-            "image": "img/speakers/devrim-gunduz.jpg" 
+            "image": "img/speakers/devrim-gunduz.jpg"
         },
         "mert": {
             "name": "Mert Hürtürk",
@@ -179,7 +179,7 @@
             "bio": "<p>Çeşitli sektörlerde 17 yllık bir deneyimi yazılım ve sistem yönetimi deneyimi olan Mustafa 2010'dan beri Projectz'de olarak çalışmaktadır. İlgi alanları işletim sistemleri, Internet ağları ve dağıtık sistemlerdir.</p>",
             "works": "Symbie",
             "image": "img/speakers/mustafa-kutsal-ay.jpg"
-        },     
+        },
         "osman": {
             "name": "Osman Üngür",
             "bio": "<p>Osman 10 yıldan fazladır sistem yöneticiliği deneyimi olan bir yazılım geliştiricidir. Daha çok Java ve PHP yazar. Bunun yanında altyapı tasarımı, sistem otomasyonu, deployment ve sistem izleme görevlerinde de yer almaktadır. Temiz, düzgün kurgulanmış, sürdürülebilir, ölçeklendirilebilir mimarilere önem vermektedir.</p>",
@@ -187,9 +187,9 @@
             "image": "img/speakers/osman-ungur.jpg"
         },
         "ugur": {
-            "name": "Uğur Özyılmazel",
-            "bio": "<p>Alaylı yazılım geliştiricisi</p>",
-            "works": "webBox",
+            "name": "Uğur -vigo- Özyılmazel",
+            "bio": "<p>&ldquo;vigo&rdquo; is an old-skool software developer who still loves and operates Commodore 64 and Amiga computers. Also he loves Ruby, GIT, Python and UNIX stuff very much!</p>",
+            "works": "Istanbul Bilgi University",
             "image": "img/speakers/ugur-ozyilmazel.jpg"
         },
         "aydogdu": {
