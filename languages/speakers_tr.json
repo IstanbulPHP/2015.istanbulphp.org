@@ -58,7 +58,7 @@
             "name": "Devrim Gündüz",
             "bio": "<p>Veritabanı yönetimi (DBA), PostgreSQL, ve de Linux Sunucu Yönetimi hakkında deneyimi olan Devrim RedHat ve de Fedora Linux dağıtımlarına oldukça ilgili. Kendisi ayrıca Debian sunucu yönetimi de yapmakta.</p>",
             "works": "EnterpriseDB",
-            "image": "img/speakers/devrim-gunduz.jpg" 
+            "image": "img/speakers/devrim-gunduz.jpg"
         },
         "mert": {
             "name": "Mert Hürtürk",
@@ -179,7 +179,7 @@
             "bio": "<p>Çeşitli sektörlerde 17 yllık bir deneyimi yazılım ve sistem yönetimi deneyimi olan Mustafa 2010'dan beri Projectz'de olarak çalışmaktadır. İlgi alanları işletim sistemleri, Internet ağları ve dağıtık sistemlerdir.</p>",
             "works": "Symbie",
             "image": "img/speakers/mustafa-kutsal-ay.jpg"
-        },     
+        },
         "osman": {
             "name": "Osman Üngür",
             "bio": "<p>Osman 10 yıldan fazladır sistem yöneticiliği deneyimi olan bir yazılım geliştiricidir. Daha çok Java ve PHP yazar. Bunun yanında altyapı tasarımı, sistem otomasyonu, deployment ve sistem izleme görevlerinde de yer almaktadır. Temiz, düzgün kurgulanmış, sürdürülebilir, ölçeklendirilebilir mimarilere önem vermektedir.</p>",
@@ -187,9 +187,9 @@
             "image": "img/speakers/osman-ungur.jpg"
         },
         "ugur": {
-            "name": "Uğur Özyılmazel",
-            "bio": "<p>Alaylı yazılım geliştiricisi</p>",
-            "works": "webBox",
+            "name": "Uğur -vigo- Özyılmazel",
+            "bio": "<p>1984 yılında Commodore 64 ile başlayan programlama macerası halen aynı heyecanla devam etmektedir. Commodore 64 ve Amiga ile aktif olarak uğraşan &ldquo;vigo&rdquo; Unix, GIT, Python ve Ruby konuları ile yakından ilgilenmektedir.</p>",
+            "works": "İstanbul Bilgi Üniversitesi",
             "image": "img/speakers/ugur-ozyilmazel.jpg"
         },
         "aydogdu": {
