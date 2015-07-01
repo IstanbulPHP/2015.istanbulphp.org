@@ -127,10 +127,10 @@
             "image": "img/speakers/bernhard-schussek.jpg"
         },
         "hugo": {
-            "name": "Bernhard Schussek",
-            "bio": "<p>Bernhard - better known as webmozart - is a long-term member of the Symfony core team and lead developer of various Symfony components. He represents Symfony at PHP-FIG and is a passionate proponent of interoperability in the PHP ecosystem. Lately, Bernhard has been developing Puli, a resource management toolkit built on top of Composer.</p>",
-            "works": "Symfony2",
-            "image": "img/speakers/bernhard-schussek.jpg"
+            "name": "Hugo Hamon",
+            "bio": "<p>Hugo Hamon is a PHP and Symfony certified developer. After five years of professional PHP web development in web agencies for famous french customers, he now works as a consultant and head of training at SensioLabs. On his free time, Hugo contributes to Symfony and many other open source projects. Hugo also wrote and contributed to french and english books related to PHP and the Symfony framework.</p>",
+            "works": "SensioLabs",
+            "image": "img/speakers/hugo-hamon.jpg"
         },
         "marco": {
             "name": "Marco Pivetta",
