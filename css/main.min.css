@@ -1276,6 +1276,10 @@ address {
     margin-left: auto
 }
 
+.hyphen--crew {
+    margin-bottom: 0;
+}
+
 .sponsor-logo {
     display: inline-block;
     vertical-align: middle;
@@ -1308,6 +1312,7 @@ address {
 .crew-person {
     display: inline-block;
     width: 230px;
+    margin-top: 24px;
     text-align: left;
     vertical-align: top
 }
