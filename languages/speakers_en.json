@@ -170,7 +170,7 @@
         },
         "huseyin": {
             "name": "Hüseyin Mert",
-            "bio": "<p>Huseyin's specialty is in building, optimization and scalability of large-scale web applications/portals with huge traffic. He has been working with colleagues at own company OkulBilişim for 2 years.</p>",
+            "bio": "<p>Huseyin's specialty is in building, optimization and scalability of large-scale web applications/portals with huge traffic. He has been working with colleagues at own company <a href='http://okulbilisim.com'>OkulBilişim</a> for 2 years.<br /> Twitter: <a href='https://twitter.com/hmert'>@hmert</a> &middot; <a href='https://twitter.com/okulbilisim'>@okulbilisim</a> | Github: <a href='https://github.com/hmert'>hmert</a> &middot; <a href='https://github.com/okulbilisim'>okulbilisim</a></p>",
             "works": "OkulBilişim",
             "image": "img/speakers/huseyin-mert.jpg"
         },
