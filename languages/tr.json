@@ -51,5 +51,6 @@
 	"MAIL_LIST": "Email listemize kayıt ol",
 	"DAY_1_DESC": "25 Temmuz Cumartesi günü gerçekleşecek programı kapsamaktadır. Başlığında yıldız olan konuşmalar İngilizce olacak ve sizlere simültane çeviri sağlıyor olacağız. Programın tüm detayları ilerleyen günlerde yayınlanacaktır.",
 	"DAY_2_DESC": "26 Temmuz Pazar günü gerçekleşecek programı kapsamaktadır. Başlığında yıldız olan konuşmalar İngilizce olacak ve sizlere simültane çeviri sağlıyor olacağız. Programın tüm detayları ilerleyen günlerde yayınlanacaktır.",
-	"SHARE_TO_WORLD": "PHPKonf'u dünyaya duyur!"
+	"SHARE_TO_WORLD": "PHPKonf'u dünyaya duyur!",
+	"ORGANIZATION": "Organizasyon"
 }
