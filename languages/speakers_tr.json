@@ -60,17 +60,11 @@
             "works": "EnterpriseDB",
             "image": "img/speakers/devrim-gunduz.jpg"
         },
-        "mert": {
-            "name": "Mert Hürtürk",
-            "bio": "<p>Kendisi Sendloop'un CTO'su ve de kurucu ortaklarındandır. 1999 senesinden bu yana pek çok sektördeki firmaya email marketing stratejileri hazırlamıştır. 15 yılı aşkın deneyim ve tecrübesiyle tüm dünyaya email marketing, marketing otomasyonu ve de email gateway servislerini sağlayan Sendloop'un kurulmasına yardımcı olmuştur. Kendisi şu anda Sendloop'ta email marketing'de yeni boyutları araştırmakta ve de kullanıcı deneyimi stratejileri üzerine çalışmaktadır.</p>",
-            "works": "Sendloop",
-            "image": "img/speakers/mert-hurturk.jpg"
-        },
-        "levent": {
-            "name": "Levent Öğüt",
-            "bio": "<p>Sendloop'ta VP of Engineering olarak görev almakta. Kendisi servislerin tasarlanması, kurulması ve de otomasyonunu üstlenmiştir.</p>",
-            "works": "Sendloop",
-            "image": "img/speakers/levent-ogut.png"
+        "lemi": {
+            "name": "Lemi Orhan Ergin",
+            "bio": "<p>ACM’de yönetici ortak ve \"Master Software Craftsman\" görevlerini yürütmektedir. Lisansını ve yüksek lisansını Marmara Üniversitesi Bilgisayar Mühendisliği bölümünde tamamlamıştır. Yazılım hayatına başladığı 2001 yılından bu yana aktif olarak yazılım geliştirmektedir. BYM, GittiGidiyor/eBay ve Sony Avrupa'da onlarca yazılım projesinde yazılım mimarı, yazılım ustası, teknik lider, takım lideri, teknik koordinator, Scrum Master ve agile koç olarak görev almıştır. Yazılım takımlarında çevik yazılım kültürün kurulması, devamı ve sürdürülebilirliği konularında liderlik etmiştir. 2008 senesinden bu yana Scrum, Kanban ve eXtreme Programming ile yazılım geliştiren takımlarda çalışmakta ve koçluk yapmaktadır. Takım ve organizasyonlarda çevik dönüşüm ve bu süreçte yazılım kültürü dönüşümü, çevik yazılım mühendisliği pratikleri, teknik koçluk ve liderlik, ALM süreçlerinin inşaası ve yazılım kültürüne entegrasyonu, yazılım ustalığı (Software Craftsmanship), çevik süreçler ve yöntemleri konularında deneyimlidir. Öğrenmekten ve deneyimlerini paylaşmaktan çok keyif alan Lemi, gerek yazılım konularında, gerekse Agile (Çevik) Yazılım Geliştirme, Scrum, Extreme Programming, Test Driven Development, Continuous Delivery, Application Lifecycle Management, Software Craftsmanship konularında eğitimler vermekte, konuşmalar yapmaktadır. Çeşitli etkinliklerde yaptığı konuşmalar internet üzerinden toplamda yarım milyondan fazla görüntülenmiştir. Yazılım topluluklarında aktif olarak yer almaktadır. Software Craftsmanship Turkey topluluğunun kurucusu, Agile Turkey topluluğunun aktif bir üyesidir. Disciplined Agile Manifesto, Software Craftsmanship Manifesto ve SOA Manifesto'yu Türkçeye kazandırmış, Agile Manifesto’yu Türkçeye çeviren takımda yer almıştır. </p>",
+            "works": "ACM",
+            "image": "img/speakers/lemi-orhan-ergin.jpg"
         },
         "mikhail": {
             "name": "Mikhail Vink",
