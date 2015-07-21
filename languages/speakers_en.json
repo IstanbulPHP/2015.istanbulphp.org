@@ -203,6 +203,18 @@
             "bio": "<p>Fatih Erikli Python ve JavaScript geliştiricisi. Arguman.org’un kurucusu.</p>",
             "works": "Gezi.com",
             "image": "img/speakers/fatih-erikli.jpg"
+        },
+        "armagan": {
+            "name": "Armağan Amcalar",
+            "bio": "<p>Software Architect, Co-founder of Startup Kitchen. Armagan has been dealing with code for over 20 years. Responsible for the software architecture, design and quality of new startups and projects incubated by Startup Kitchen, he focuses on the MEAN stack. He also publishes open source libraries on GitHub that range from frontend libraries to distributing computing.</p>",
+            "works": "Startup Kitchen",
+            "image": "img/speakers/armagan-amcalar.jpg"
+        },
+        "emrah": {
+            "name": "Emrah Işıklı",
+            "bio": "<p>Product Owner for IdeaSoft and Shopio e-commerce softwares. Over 7 years of experience in web application development channel. He is experienced in agile software development, agile product management and passionate about working with agile software development metodologies in hyperproductive teams.</p>",
+            "works": "ideasoft",
+            "image": "img/speakers/emrah-isikli.jpg"
         }
     }
 }

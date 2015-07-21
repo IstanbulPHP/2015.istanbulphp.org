@@ -203,6 +203,18 @@
             "bio": "<p>Python ve JavaScript geliştiricisi. Arguman.org’un kurucusu</p>",
             "works": "Gezi.com",
             "image": "img/speakers/fatih-erikli.jpg"
+        },
+        "armagan": {
+            "name": "Armağan Amcalar",
+            "bio": "<p>Yazılım Mimarı, Startup Kitchen'ın kurucu ortağı. Armağan 20 yılı aşkın süredir kodla uğraşıyor. Startup Kitchen tarafından geliştirilen ürünlerin yazılım mimarilerinden, yazılım tasarımlarından ve kalitesinden sorumlu. MEAN yapısı ile çalışmayı tercih ediyor. Ayrıca GitHub'da önyüz kütüphanelerinden dağıtık mimari kütüphanelerine kadar geniş bir yelpazede açık kaynaklı kütüphaneler yayınlıyor.</p>",
+            "works": "Startup Kitchen",
+            "image": "img/speakers/armagan-amcalar.jpg"
+        },
+        "emrah": {
+            "name": "Emrah Işıklı",
+            "bio": "<p>IdeaSoft ve Shopio e-ticaret yazılımlarının ürün yöneticisi olarak çalışıyor. Web uygulamaları geliştirme alanında 7 yılı aşkın deneyime sahip. Agile yazılım geliştirme, agile ürün yönetimi konularında tecrübe sahibi ve hiper üretken ekiplerle agile yazılım geliştirme metodolojilerini kullanarak çalışmayı seviyor.</p>",
+            "works": "ideasoft",
+            "image": "img/speakers/emrah-isikli.jpg"
         }
     }
 }
